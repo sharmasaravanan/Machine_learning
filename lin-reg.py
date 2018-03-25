@@ -3,6 +3,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.cross_validation import train_test_split
 from sklearn import metrics
+import pickle
 
 
 data = pd.read_csv("./Advertising.csv", index_col=0)
@@ -19,6 +20,11 @@ linreg = LinearRegression()
 
 linreg.fit(X_train, y_train)
 
-y_pred = linreg.predict(X_test)
+fname="model.sav"
 
-print(np.sqrt(metrics.mean_squared_error(y_test, y_pred)))
+pickle.dump(linreg, open(fname, 'wb'))
+
+
+#y_pred = linreg.predict(X_test)
+
+#print(np.sqrt(metrics.mean_squared_error(y_test, y_pred)))
