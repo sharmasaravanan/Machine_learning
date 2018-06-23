@@ -1,4 +1,3 @@
-from __future__ import print_function
 import numpy as np
 from keras.datasets import mnist
 from keras.models import Sequential

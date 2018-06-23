@@ -10,7 +10,7 @@ X = np.array([[1, 2],
               [8, 8],
               [1, 0.6],
               [9, 11]])
-kmeans = KMeans(n_clusters=2)
+kmeans = KMeans()
 kmeans.fit(X)
 
 centroids = kmeans.cluster_centers_
@@ -26,6 +26,6 @@ for i in range(len(X)):
     plt.plot(X[i][0], X[i][1], colors[labels[i]], markersize = 10)
 
 
-plt.scatter(centroids[:, 0],centroids[:, 1], marker = "x", s=150, linewidths = 5, zorder = 10)
+plt.scatter(centroids[:, 0],centroids[:, 1],centroids[:, 2], marker = "x", s=150, linewidths = 5, zorder = 10)
 
 plt.show()

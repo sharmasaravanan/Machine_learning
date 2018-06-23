@@ -4,7 +4,7 @@ import pandas as pd
 
 data=pd.read_csv("./weather.csv")
 
-print data.head()
+print (data.head())
 
 features=["outlook","temperature","humidity","wind"]
 
@@ -14,6 +14,11 @@ y=data.play
 
 nb_model = GaussianNB()
 
-model = nb_model.fit(x, y)
+nb_model.fit(x, y)
 
-preds = gnb.predict([sunny,cool,high,True])
+preds = nb_model.predict([[2,1,1,1]])
+
+#preds = model.predict([[2,0,1,1]])
+
+
+print (preds)

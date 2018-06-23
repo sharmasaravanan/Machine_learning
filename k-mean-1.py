@@ -11,7 +11,7 @@ feature_names = ['TV', 'radio', 'newspaper']
 
 X = data[feature_names]
 
-kmeans = KMeans(n_clusters=3).fit(X)
+kmeans = KMeans().fit(X)
 
 centroids = kmeans.cluster_centers_
 labels = kmeans.labels_
@@ -21,6 +21,6 @@ print(labels)
 
 colors = ["g.","r.","c.","y."]
 
-plt.scatter(centroids[:, 0],centroids[:, 1], centroids[:, 2],marker = "x", linewidths = 5, zorder = 10)
+#plt.scatter(centroids[:, 0],centroids[:, 1], centroids[:, 2],marker = "x", linewidths = 5, zorder = 10)
 
-plt.show()
+#plt.show()
