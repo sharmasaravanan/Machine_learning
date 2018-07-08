@@ -66,5 +66,5 @@ print('Test accuracy:', score[1])
 #save model
 model_json = model.to_json()
 open('cifar10_architecture.json', 'w').write(model_json)
-And the weights learned by our deep network on the training set
+#And the weights learned by our deep network on the training set
 model.save_weights('cifar10_weights.h5', overwrite=True)

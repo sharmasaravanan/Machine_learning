@@ -31,10 +31,10 @@ ftrain.close()
 
 MAX_FEATURES = 2000
 MAX_SENTENCE_LENGTH = 40
-'''
-for i, x in enumerate(word_freqs.most_common(MAX_FEATURES)):
-	print(i,x)
-'''
+
+#for i, x in enumerate(word_freqs.most_common(MAX_FEATURES)):
+#	print(i,x)
+
 vocab_size = min(MAX_FEATURES, len(word_freqs)) + 2
 word2index = {x[0]: i+2 for i, x in enumerate(word_freqs.most_common(MAX_FEATURES))}
 word2index["PAD"] = 0
@@ -62,8 +62,6 @@ for line in ftrain:
 ftrain.close()
 
 X = sequence.pad_sequences(X, maxlen=MAX_SENTENCE_LENGTH)
-
-#print(X)
 
 Xtrain, Xtest, ytrain, ytest = train_test_split(X, y, test_size=0.2, random_state=42)
 
@@ -105,9 +103,10 @@ for i in range(5):
 	ylabel = ytest[idx]
 	ypred = model.predict(xtest)[0][0]
 	sent = " ".join([index2word[x] for x in xtest[0].tolist() if x != 0])
-	print("%.0f\t%d\t%s" % (ypred, ylabel, sent))
+	print("Predicted\tActual\tsentence")
+	print("%.0f\t\t%d\t\t%s" % (ypred, ylabel, sent))
 
-text ="Before I left Missouri, I thought London was going to be so good and cool and fun and a really great experience and I was really excited."
+text ="Angelina Jolie is so much more beautiful."
 
 words = nltk.word_tokenize(text.lower())
 seqs_test = []
@@ -116,7 +115,7 @@ for word in words:
 		seqs_test.append(word2index[word])
 	else:
 		seqs_test.append(word2index["UNK"])
-
+print(seqs_test)
 seqs_test = sequence.pad_sequences([seqs_test], maxlen=MAX_SENTENCE_LENGTH)
 test = seqs_test.reshape(1,40)
 

@@ -22,7 +22,6 @@ nb_chars = len(chars)
 char2index = dict((c, i) for i, c in enumerate(chars))
 index2char = dict((i, c) for i, c in enumerate(chars))
 
-
 SEQLEN = 10
 STEP = 1
 input_chars = []
@@ -31,14 +30,13 @@ for i in range(0, len(text) - SEQLEN, STEP):
 	input_chars.append(text[i:i + SEQLEN])
 	label_chars.append(text[i + SEQLEN])
 
-X = np.zeros((len(input_chars), SEQLEN, nb_chars), dtype=np.bool)
+X = np.zeros((len(input_chars), SEQLEN, nb_chars), dtype=np.bool)#5000 x 10 x 55
 y = np.zeros((len(input_chars), nb_chars), dtype=np.bool)
 
 for i, input_char in enumerate(input_chars):
 	for j, ch in enumerate(input_char):
 		X[i, j, char2index[ch]] = 1
-	y[i, char2index[label_chars[i]]] = 1
-	
+		y[i, char2index[label_chars[i]]] = 1
 
 HIDDEN_SIZE = 128
 BATCH_SIZE = 128
@@ -57,7 +55,7 @@ for iteration in range(NUM_ITERATIONS):
 	print("=" * 50)
 	print("Iteration #: %d" % (iteration))
 	model.fit(X, y, batch_size=BATCH_SIZE, epochs=NUM_EPOCHS_PER_ITERATION)
-	test_idx = np.random.randint(len(input_chars))
+	#test_idx = np.random.randint(len(input_chars))
 	test_chars = "are and hi"
 	print("Generating from seed: %s" % (test_chars))
 	print(test_chars, end="")
