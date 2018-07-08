@@ -20,11 +20,10 @@ linreg = LinearRegression()
 
 linreg.fit(X_train, y_train)
 
-fname="model.sav"
+#fname="model.sav"
 
-pickle.dump(linreg, open(fname, 'wb'))
+#pickle.dump(linreg, open(fname, 'wb'))
 
+y_pred = linreg.predict(X_test)
 
-#y_pred = linreg.predict(X_test)
-
-#print(np.sqrt(metrics.mean_squared_error(y_test, y_pred)))
+print(np.sqrt(metrics.mean_squared_error(y_test, y_pred)))
