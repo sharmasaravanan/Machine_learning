@@ -118,7 +118,7 @@ for word in words:
 	else:
 		seqs_test.append(word2index["UNK"])
 		
-seqs_test = sequence.pad_sequences([seqs_test], maxlen=MAX_SENTENCE_LENGTH)
+seqs_test = 	pad_sequences([seqs_test], maxlen=MAX_SENTENCE_LENGTH)
 test = seqs_test.reshape(1,40)
 
 print("Real Time :",model.predict_classes(test)[0][0])
