@@ -55,18 +55,19 @@ for iteration in range(NUM_ITERATIONS):
 	print("=" * 50)
 	print("Iteration #: %d" % (iteration))
 	model.fit(X, y, batch_size=BATCH_SIZE, epochs=NUM_EPOCHS_PER_ITERATION)
-	#test_idx = np.random.randint(len(input_chars))
-	test_chars = "are and hi"
-	print("Generating from seed: %s" % (test_chars))
-	print(test_chars, end="")
-	for i in range(NUM_PREDS_PER_EPOCH):
-		Xtest = np.zeros((1, SEQLEN, nb_chars))
-		for i, ch in enumerate(test_chars):
-			Xtest[0, i, char2index[ch]] = 1
-		pred = model.predict(Xtest, verbose=0)[0]
-		ypred = index2char[np.argmax(pred)]
-		print(ypred, end="")
-		# move forward with test_chars + ypred
-		test_chars = test_chars[1:] + ypred
+
+#test_idx = np.random.randint(len(input_chars))
+test_chars = "are and hi"
+print("Generating from seed: %s" % (test_chars))
+print(test_chars, end="")
+for i in range(NUM_PREDS_PER_EPOCH):
+	Xtest = np.zeros((1, SEQLEN, nb_chars))
+	for i, ch in enumerate(test_chars):
+		Xtest[0, i, char2index[ch]] = 1
+	pred = model.predict(Xtest, verbose=0)[0]
+	ypred = index2char[np.argmax(pred)]
+	print(ypred, end="")
+	# move forward with test_chars + ypred
+	test_chars = test_chars[1:] + ypred
 print()
 
