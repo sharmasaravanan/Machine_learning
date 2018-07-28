@@ -19,7 +19,7 @@ df.dropna(inplace=True)
 df["Postive rated"]=np.where(df['sentiment']>0,1,0)
 #df["Postive rated"]=pd.cut(df['Sentiment'], [0, 1, 2, np.inf], labels=['Neg','Neu','Pos'])
 
-def cleaning_words(raw_words):
+ 	def cleaning_words(raw_words):
 	exam=BeautifulSoup(raw_words,"html.parser") #removing html tags
 	letters=re.sub("[^a-zA-Z]"," ",exam.get_text()) #removing numbers and others except small and capital alphabets
 	low=letters.lower() #Converting everything to lower case
