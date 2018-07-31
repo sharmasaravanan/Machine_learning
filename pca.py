@@ -5,7 +5,9 @@ from sklearn.datasets import fetch_lfw_people
 from sklearn.metrics import classification_report
 from sklearn.decomposition import PCA
 from sklearn.neural_network import MLPClassifier
+import warnings
 
+warnings.filterwarnings("ignore")
 
 # Load data
 lfw_dataset = fetch_lfw_people(min_faces_per_person=100)
