@@ -5,7 +5,7 @@ docB = "The truck is driven on the highway"
 
 tfidf = TfidfVectorizer()
 
-response = tfidf.fit_transform([docA, docB])
+response = tfidf.fit_transform([docA])
 
 feature_names = tfidf.get_feature_names()
 for col in response.nonzero()[1]:
