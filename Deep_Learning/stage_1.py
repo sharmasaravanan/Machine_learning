@@ -4,19 +4,20 @@ from keras.models import Sequential
 from keras.layers.core import Dense, Dropout, Activation
 from keras.optimizers import RMSprop, Adam, SGD
 from keras.utils import np_utils
+import matplotlib.pyplot as plt
 
 np.random.seed(1671) 
 
-NB_EPOCH = 200
+NB_EPOCH = 30
 BATCH_SIZE = 128
 VERBOSE = 1
 NB_CLASSES = 10 
 
-OPTIMIZER = SGD() 
+OPTIMIZER = Adam() 
 N_HIDDEN = 128
-VALIDATION_SPLIT=0.2
+VALIDATION_SPLIT=0.1
 
-DROPOUT = 0.3
+DROPOUT = 0.2
 
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
 
@@ -35,15 +36,16 @@ print(X_test.shape[0], 'test samples')
 
 Y_train = np_utils.to_categorical(y_train, NB_CLASSES)
 Y_test = np_utils.to_categorical(y_test, NB_CLASSES)
-
+'''
 #simple neural network
 model = Sequential()
 model.add(Dense(NB_CLASSES, input_shape=(RESHAPED,)))
 model.add(Activation('softmax'))
-model.summary()
+
 
 model.compile(loss='categorical_crossentropy', optimizer=OPTIMIZER, metrics=['accuracy'])
 model.fit(X_train, Y_train, batch_size=BATCH_SIZE, epochs=NB_EPOCH,verbose=VERBOSE, validation_split=VALIDATION_SPLIT)
+model.summary()
 
 score = model.evaluate(X_test, Y_test, verbose=VERBOSE)
 print("Test score:", score[0])
@@ -51,7 +53,7 @@ print('Test accuracy:', score[1])
 
 
 #ReLu & Hidden layer
-'''
+
 model = Sequential()
 model.add(Dense(N_HIDDEN, input_shape=(RESHAPED,)))
 model.add(Activation('relu'))
@@ -59,14 +61,15 @@ model.add(Dense(N_HIDDEN))
 model.add(Activation('relu'))
 model.add(Dense(NB_CLASSES))
 model.add(Activation('softmax'))
-model.summary()
+
 model.compile(loss='categorical_crossentropy', optimizer=OPTIMIZER, metrics=['accuracy'])
 model.fit(X_train, Y_train, batch_size=BATCH_SIZE, epochs=NB_EPOCH,verbose=VERBOSE, validation_split=VALIDATION_SPLIT)
+model.summary()
 
 score = model.evaluate(X_test, Y_test, verbose=VERBOSE)
 print("Test score:", score[0])
 print('Test accuracy:', score[1])
-'''
+
 
 #Regularization
 '''
@@ -79,12 +82,27 @@ model.add(Activation('relu'))
 model.add(Dropout(DROPOUT))
 model.add(Dense(NB_CLASSES))
 model.add(Activation('softmax'))
-model.summary()
-model.compile(loss='categorical_crossentropy', optimizer=OPTIMIZER, metrics=['accuracy'])
-model.fit(X_train, Y_train, batch_size=BATCH_SIZE, epochs=NB_EPOCH,verbose=VERBOSE, validation_split=VALIDATION_SPLIT)
 
+model.compile(loss='categorical_crossentropy', optimizer=OPTIMIZER, metrics=['accuracy'])
+history=model.fit(X_train, Y_train, batch_size=BATCH_SIZE, epochs=NB_EPOCH,verbose=VERBOSE, validation_split=VALIDATION_SPLIT)
+model.summary()
 score = model.evaluate(X_test, Y_test, verbose=VERBOSE)
 print("Test score:", score[0])
 print('Test accuracy:', score[1])
-'''
 
+
+plt.plot(history.history['acc'])
+plt.plot(history.history['val_acc'])
+plt.title('model accuracy')
+plt.ylabel('accuracy')
+plt.xlabel('epoch')
+plt.legend(['train', 'test'], loc='upper left')
+plt.show()
+
+plt.plot(history.history['loss'])
+plt.plot(history.history['val_loss'])
+plt.title('model loss')
+plt.ylabel('loss')
+plt.xlabel('epoch')
+plt.legend(['train', 'test'], loc='upper left')
+plt.show()
