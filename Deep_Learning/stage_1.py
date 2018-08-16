@@ -5,7 +5,7 @@ from keras.layers.core import Dense, Dropout, Activation
 from keras.optimizers import RMSprop, Adam, SGD
 from keras.utils import np_utils
 import matplotlib.pyplot as plt
-
+	
 np.random.seed(1671) 
 
 NB_EPOCH = 30
@@ -106,3 +106,8 @@ plt.ylabel('loss')
 plt.xlabel('epoch')
 plt.legend(['train', 'test'], loc='upper left')
 plt.show()
+
+#save model
+model_json = model.to_json()
+open('stage-1_architecture.json', 'w').write(model_json)
+model.save_weights('stage-1_weights.h5', overwrite=True)
