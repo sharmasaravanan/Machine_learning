@@ -3,15 +3,15 @@ import json
 
 app=Flask(__name__)
 
-@app.route('/ai',methods=['POST','GET'])
+@app.route('/msme',methods=['POST','GET'])
 def home():
     if request.method=='POST':
-             data=request.args.get('q')#request.args['q']
-             #data = request.values.get('key')
+             #data=request.args.get('q')#request.args['q']
+             data = request.values.get('key')
              print(data)
              res='{'+'"Name":"{}"'.format(data)+'}'
              print (jsonify({"Name":"{}".format(data)}))
              return json.dumps(json.loads(res))
              
 if __name__=='__main__':
-	app.run(port=8080)
+	app.run()
