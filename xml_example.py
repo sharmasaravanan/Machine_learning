@@ -15,3 +15,7 @@ for movie in root.iter('movie'):
 
 for movie in root.findall("./movie/[stars='10']"):
     print(movie.attrib)
+
+for movie in root.findall('movie'):
+    for child in movie.getiterator():
+        print(child)
