@@ -91,7 +91,7 @@ emp1.displayEmployee()
 emp2.displayEmployee()
 
 print("Total Employee %d" % Employee.empCount)
-'''
+
 
 
 class Parent:
@@ -113,3 +113,15 @@ p.myMethod()
 # (10,20,10,40,50,60,70),50
 
 # [-25, -10, -7, -3, 2, 4, 8, 10]
+
+class D:
+    def add(self,a,b,c=None):
+        if c is None:
+            print(a+b)
+        else:
+            print(a+b+c)
+
+d=D()
+d.add(5,8,10)
+
+'''
