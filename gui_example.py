@@ -17,13 +17,6 @@ def window():
     l1.setFont(font)
     l1.setText("Welcome to MSME Login")
 
-    l2 = qg.QLabel(d)
-    l2.setGeometry(qc.QRect(270, 280, 125, 21))
-    font = qg.QFont()
-    font.setPointSize(10)
-    l2.setFont(font)
-    l2.setText("Created by Sharma S")
-
     l3 = qg.QLabel(d)
     l3.setGeometry(qc.QRect(67, 115, 111, 21))
     font = qg.QFont()
@@ -44,7 +37,13 @@ def window():
     b1 = qg.QPushButton(d)
     b1.setText("Login")
     b1.clicked.connect(verification)
-    b1.setGeometry(qc.QRect(210, 220, 75, 23))
+    b1.setGeometry(qc.QRect(150, 220, 75, 23))
+    
+    b2=qg.QPushButton(d)
+    b2.setText("Cancel")
+    b2.clicked.connect(close)
+    b2.setGeometry(qc.QRect(260, 220, 75, 23))
+    
 
     d.show()
     sys.exit(app.exec_())
