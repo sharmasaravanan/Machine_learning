@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccff98f5-613e-4817-b184-308266daa0d2" name="Default Changelist" comment="updated on 22/08/18">
-      <change afterPath="$PROJECT_DIR$/full_gui.py" afterDir="false" />
+    <list default="true" id="ccff98f5-613e-4817-b184-308266daa0d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/MSME-Python-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/MSME-Python-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSME-Python.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/MSME-Python.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui_example.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,38 +14,38 @@
     <session id="-1970109003">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="17" />
+          <entry key="py" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="14" />
+          <entry key="Python" value="16" />
           <entry key="Scratch" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="py" value="1390" />
-          <entry key="txt" value="31" />
+          <entry key="py" value="2083" />
+          <entry key="txt" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="42" />
-          <entry key="Python" value="1228" />
+          <entry key="PLAIN_TEXT" value="48" />
+          <entry key="Python" value="1921" />
           <entry key="Scratch" value="162" />
         </counts>
       </usages-collector>
@@ -58,25 +54,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gui_example.py">
+        <entry file="file://$PROJECT_DIR$/re_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1534914620575" expanded="true" signature="1604:1605" ph="..." />
-              </folding>
+            <state relative-caret-position="421">
+              <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/full_gui.py">
+        <entry file="file://$PROJECT_DIR$/threading-example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="203" column="37" lean-forward="true" selection-start-line="203" selection-start-column="37" selection-end-line="203" selection-end-column="37" />
+            <state relative-caret-position="96">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#0#16#0" expanded="true" />
+                <marker date="1534995324192" expanded="true" signature="43:48" ph="..." />
               </folding>
             </state>
           </provider>
@@ -108,6 +101,8 @@
         <option value="$PROJECT_DIR$/nw2_example.py" />
         <option value="$PROJECT_DIR$/gui_example.py" />
         <option value="$PROJECT_DIR$/full_gui.py" />
+        <option value="$PROJECT_DIR$/re_example.py" />
+        <option value="$PROJECT_DIR$/threading-example.py" />
       </list>
     </option>
   </component>
@@ -155,28 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.full_gui">
-    <configuration name="client-chat" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Machine_learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client-chat.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.threading-example">
     <configuration name="full_gui" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machine_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,7 +235,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server-chat" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="re_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machine_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,7 +247,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server-chat.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/re_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="threading-example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Machine_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threading-example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,19 +279,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.nw_example" />
-      <item itemvalue="Python.server-chat" />
-      <item itemvalue="Python.client-chat" />
       <item itemvalue="Python.gui_example" />
       <item itemvalue="Python.login_python" />
       <item itemvalue="Python.full_gui" />
+      <item itemvalue="Python.re_example" />
+      <item itemvalue="Python.threading-example" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.threading-example" />
+        <item itemvalue="Python.re_example" />
         <item itemvalue="Python.full_gui" />
         <item itemvalue="Python.gui_example" />
         <item itemvalue="Python.login_python" />
-        <item itemvalue="Python.client-chat" />
-        <item itemvalue="Python.server-chat" />
       </list>
     </recent_temporary>
   </component>
@@ -339,14 +334,35 @@
       <option name="project" value="LOCAL" />
       <updated>1534873493836</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated on 23/08/18">
+      <created>1534961649917</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534961649917</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated on 23/08/18-2">
+      <created>1534995324782</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1534995324782</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated on 23/08/18-3">
+      <created>1535007825483</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1535007825483</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="25" width="1857" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24972737" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -422,7 +438,10 @@
     <MESSAGE value="updated on 19/8/18-2" />
     <MESSAGE value="updated on 21/08/18" />
     <MESSAGE value="updated on 22/08/18" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated on 22/08/18" />
+    <MESSAGE value="updated on 23/08/18" />
+    <MESSAGE value="updated on 23/08/18-2" />
+    <MESSAGE value="updated on 23/08/18-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated on 23/08/18-3" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -495,7 +514,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gui_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="648">
           <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -507,9 +526,27 @@
     <entry file="file://$PROJECT_DIR$/full_gui.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="203" column="37" lean-forward="true" selection-start-line="203" selection-start-column="37" selection-end-line="203" selection-end-column="37" />
+          <caret line="203" column="37" selection-start-line="203" selection-start-column="37" selection-end-line="203" selection-end-column="37" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/re_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threading-example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+            <marker date="1534995324192" expanded="true" signature="43:48" ph="..." />
           </folding>
         </state>
       </provider>
