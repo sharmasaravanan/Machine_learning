@@ -1,25 +1,16 @@
 import numpy as np
-import scipy.misc
 from keras.models import model_from_json
 from keras.optimizers import Adam
 
 #load model
-model_architecture = 'cifar10_architecture.json'
-model_weights = 'cifar10_weights.h5'
+model_architecture = 'stage-1_architecture.json'
+model_weights = 'stage-1_weights.h5'
 model = model_from_json(open(model_architecture).read())
 model.load_weights(model_weights)
 
-#load images
-img_names = ['dog.jpeg', 'cat.jpg']
-imgs = [np.transpose(scipy.misc.imresize(scipy.misc.imread(img_name), (28, 28)),(1, 0, 2)).astype('float32') for img_name in img_names]
-imgs = np.array(imgs) / 255
+file = cv2.imread('second.png') 
+file = cv2.resize(file, (28, 28))
+file = cv2.cvtColor(file, cv2.COLOR_BGR2GRAY)
+file = file.reshape(28, 28)
 
-'''
-# train
-optim = Adam()
-model.compile(loss='categorical_crossentropy', optimizer=optim,metrics=['accuracy'])
-'''
-
-# predict
-predictions = model.predict_classes(batch)
-print(predictions)
+print(model.predict(np.expand_dims(file, axis = 0)))

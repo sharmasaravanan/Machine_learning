@@ -30,11 +30,11 @@ class LeNet:
 		model.add(Activation("softmax"))
 		return model
 		
-NB_EPOCH = 20
+NB_EPOCH = 10
 BATCH_SIZE = 128
 VERBOSE = 1
 OPTIMIZER = Adam()
-VALIDATION_SPLIT=0.2
+VALIDATION_SPLIT=0.1
 IMG_ROWS, IMG_COLS = 28, 28 
 NB_CLASSES = 10 
 INPUT_SHAPE = (1, IMG_ROWS, IMG_COLS)
@@ -65,7 +65,7 @@ score = model.evaluate(X_test, y_test, verbose=VERBOSE)
 print("Test score:", score[0])
 print('Test accuracy:', score[1])
 
-print(history.history.keys())
+model.summary()
 
 plt.plot(history.history['acc'])
 plt.plot(history.history['val_acc'])
