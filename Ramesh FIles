@@ -1,0 +1,98 @@
+'''''''''
+Solve using Python
+
+If one side of the triangle increases by 11 cm and the other side decreases by the same value, we get an equilateral triangle. 
+When the first side is multiplied by four, it is 10 cm longer than three times the third side. Find the lengths of the triangle's sides.
+
+The clue here is 'equilateral' triangle which means x=y=z - meaning all sides are equal. So task 1 is to make a linear equation out of
+the problem statement.
+
+Task-1: Linear Equation
+x + 11 = z or x-z = -11
+y - 11 = z or y-z = 11
+3z + 10 = 4x or 4x - 3z = 10
+
+Task-2: Matrix conversion
+1 0 -1 x = -11
+4 0 -3 y =  10
+0 1 -1 z =  11
+
+Task-3: Write Python code :)
+
+'''''''''
+''''''
+import numpy as np
+
+a = np.array([[1,0,-1],[4,0,-3],[0,1,-1]])
+b = np.array([-11,10,11])
+c = np.linalg.solve(a,b)
+print(c)
+
+'''''''''
+Solve using Python
+
+There are 5,500 men, women and children altogether at the swimming pool. There are twice as many women as men and four times as many 
+children as women. How many men, women and children are at the swimming pool ?
+
+
+
+Task-1: Linear Equation (assuming x = men, y = women and z = child)
+y = 2x = -2x + 1y + 0z = 0
+z = 4y = 0x -4y + 1z = 0
+x + y + z = 5500
+
+
+Task-2: Matrix conversion
+
+1  1 1 x = 5500
+-2 1 0 y = 0
+0 -4 1 z = 0
+
+Task-3: Write Python code :)
+
+'''''''''
+''''''
+import numpy as np
+
+a = np.array([[1,1,1],[-2,1,0],[0,-4,1]])
+b = np.array([5500,0,0])
+c = np.linalg.solve(a,b)
+print(c)
+
+'''''''''
+Solve using Python
+
+Two containers contain a water of different temperatures. If we mix 240 g of water from the first container with 260 g of water from the 
+second container, the resulting water temperature will be 52°C. If we mix 180 g of water from the first container with 120 g of water 
+from the second container, the resulting water temperature will be 46°C. What is the temperature of water in the containers ?
+
+How many liters of a 30% solution and how many liters of a 50% solution do we have to mix in order to obtain 25 liters of a 42% solution?
+(% is meant as by volume)
+
+How many grams of an 80% solution and how many grams of a 54% solution do we have to mix in order to obtain 100 g of a 60% solution ? 
+(% is meant as by weight)
+
+
+
+
+Task-1: Linear Equation 
+240x + 260y = 52z
+180x + 120y = 46z
+
+
+
+Task-2: Matrix conversion
+
+12 13 x = 2.6
+9  6  y = 2.3
+
+Task-3: Write Python code :)
+
+'''''''''
+''''''
+import numpy as np
+
+a = np.array([[240,260,-52],[180,120,-46],[1,1,-1]])
+b = np.array([1,1,1])
+c = np.linalg.solve(a,b)
+print(c)
