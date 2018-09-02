@@ -1,0 +1,74 @@
+Steps:-
+1. Load dataset
+2. Split dataset
+3. Define an algorithm
+4. Training
+5. Validation
+6. Tuning
+7. Testing
+
+Assume:-
+1. Application
+2. Algorithms
+3. Datasets
+
+metrics:-
+accuracy -> Classification
+error  -> regression
+
+error:-
+
+absolute error:- y-y^
+mean absolute error:- (y-y^)/n
+mean squared error:- (y-y^)**2/n
+least mean squared error sqrt((y-y^)**2/n)
+
+ML Algorithms:-
+
+1. Linear regression -> regression
+2. Logistic regression -> Classification
+3. SVM -> Classification
+4. K-means -> clustering
+5. KNN  -> clustering
+6. Hierarchy clustering -> clustering
+7. LDA -> topic modeling
+8. TF-IDF -> topic modeling
+9. Eclat -> associative learning
+10. Aprior -> associative learning
+11. Random forest -> Ensemble method
+12. AdaBoost -> Ensemble method
+13. Decision tree -> Classification
+14. Naive Baye's -> Classification
+15. PCA -> Dimensionality reduction
+
+Neural Network:-
+
+1. perceptron
+2. sigmoid
+3. multi layer preceptron
+4. Backpropagation
+4.a gradient descent
+4.b stochostic gradient descent
+5. Vanila neural network
+
+Face recognition
+
+LFW -> labeled wild face
+FRGC -> Face recognition grand challenge
+
+object recogition
+
+coco
+cifar-100/cifar-10
+
+
+NLP processing 
+
+SQuAD dataser
+IMDb movie review dataset
+twitter dataset
+
+
+
+
+

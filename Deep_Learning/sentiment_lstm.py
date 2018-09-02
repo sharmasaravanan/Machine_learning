@@ -1,14 +1,14 @@
+import collections
+
+import matplotlib.pyplot as plt
+import nltk
+import numpy as np
 from keras.layers.core import Activation, Dense, Dropout
 from keras.layers.embeddings import Embedding
 from keras.layers.recurrent import LSTM
 from keras.models import Sequential
 from keras.preprocessing import sequence
 from sklearn.model_selection import train_test_split
-import collections
-import matplotlib.pyplot as plt
-import nltk
-import numpy as np
-import os
 
 maxlen = 0
 word_freqs = collections.Counter()
@@ -34,6 +34,8 @@ MAX_SENTENCE_LENGTH = 40
 
 #for i, x in enumerate(word_freqs.most_common(MAX_FEATURES)):
 #	print(i,x)
+#	input()
+
 
 vocab_size = min(MAX_FEATURES, len(word_freqs)) + 2
 word2index = {x[0]: i+2 for i, x in enumerate(word_freqs.most_common(MAX_FEATURES))}
@@ -106,7 +108,7 @@ for i in range(5):
 	print("Predicted\tActual\tsentence")
 	print("%.0f\t\t%d\t\t%s" % (ypred, ylabel, sent))
 
-text ="Angelina Jolie is so much more beautiful."
+text = "Now I can totally rub it in my dad's face that Seattle sucks more than Pittsburgh does."
 
 words = nltk.word_tokenize(text.lower())
 seqs_test = []

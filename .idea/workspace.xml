@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccff98f5-613e-4817-b184-308266daa0d2" name="Default Changelist" comment="">
+    <list default="true" id="ccff98f5-613e-4817-b184-308266daa0d2" name="Default Changelist" comment="updated on 2/09/18">
+      <change afterPath="$PROJECT_DIR$/071316_1312_RecurrentNe3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-9-18-class_notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Copper-AI.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LSTM-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bptt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grad_vanishing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lstm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rnn-neuron-196x300.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Brass-DA-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Brass-DA-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Brass-DA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Brass-DA.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deep_Learning/RNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deep_Learning/RNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deep_Learning/sentiment_lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deep_Learning/sentiment_lstm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,38 +26,41 @@
     <session id="-1970109003">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="19" />
+          <entry key="py" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="16" />
+          <entry key="Python" value="17" />
           <entry key="Scratch" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="py" value="2083" />
-          <entry key="txt" value="37" />
+          <entry key="py" value="2089" />
+          <entry key="txt" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="48" />
-          <entry key="Python" value="1921" />
+          <entry key="PLAIN_TEXT" value="58" />
+          <entry key="Python" value="1927" />
           <entry key="Scratch" value="162" />
         </counts>
       </usages-collector>
@@ -56,20 +71,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/re_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
+            <state relative-caret-position="1134">
               <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threading-example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="278">
+              <caret line="51" column="15" lean-forward="true" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
-                <marker date="1534995324192" expanded="true" signature="43:48" ph="..." />
+                <marker date="1535182617902" expanded="true" signature="43:48" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Deep_Learning/RNN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#46#64#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,6 +111,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -103,6 +130,7 @@
         <option value="$PROJECT_DIR$/full_gui.py" />
         <option value="$PROJECT_DIR$/re_example.py" />
         <option value="$PROJECT_DIR$/threading-example.py" />
+        <option value="$PROJECT_DIR$/Deep_Learning/RNN.py" />
       </list>
     </option>
   </component>
@@ -120,7 +148,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,6 +159,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,14 +383,28 @@
       <option name="project" value="LOCAL" />
       <updated>1535007825483</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updated on 23/08/18-3">
+      <created>1535635361343</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1535635361343</updated>
+    </task>
+    <task id="LOCAL-00009" summary="updated on 30/08/18">
+      <created>1535635410378</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1535635410378</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="25" width="1857" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972737" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24972737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -372,11 +414,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49945474" weight="0.3279396" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49890947" weight="0.32216215" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054526" side_tool="true" weight="0.32972974" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32972974" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054526" side_tool="true" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49945474" weight="0.32972974" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49945474" visible="true" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -387,16 +429,16 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49945474" weight="0.3279396" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49945474" weight="0.32686085" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054526" side_tool="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32972974" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -441,7 +483,9 @@
     <MESSAGE value="updated on 23/08/18" />
     <MESSAGE value="updated on 23/08/18-2" />
     <MESSAGE value="updated on 23/08/18-3" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated on 23/08/18-3" />
+    <MESSAGE value="updated on 30/08/18" />
+    <MESSAGE value="updated on 2/09/18" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated on 2/09/18" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -516,10 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1534914620575" expanded="true" signature="1604:1605" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -527,26 +567,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="203" column="37" selection-start-line="203" selection-start-column="37" selection-end-line="203" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/re_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
+        <state relative-caret-position="1134">
           <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/threading-example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="278">
+          <caret line="51" column="15" lean-forward="true" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
-            <marker date="1534995324192" expanded="true" signature="43:48" ph="..." />
+            <marker date="1535182617902" expanded="true" signature="43:48" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_Learning/RNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#46#64#0" expanded="true" />
           </folding>
         </state>
       </provider>

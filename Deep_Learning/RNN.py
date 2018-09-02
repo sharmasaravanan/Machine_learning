@@ -1,8 +1,8 @@
+# from keras.utils.visualize_util import plot
+import numpy as np
 from keras.layers import Dense, Activation
 from keras.layers.recurrent import SimpleRNN
 from keras.models import Sequential
-#from keras.utils.visualize_util import plot
-import numpy as np
 
 fin = open("11.txt", 'rb')
 lines = []
@@ -40,7 +40,7 @@ for i, input_char in enumerate(input_chars):
 
 HIDDEN_SIZE = 128
 BATCH_SIZE = 128
-NUM_ITERATIONS = 25
+NUM_ITERATIONS = 20
 NUM_EPOCHS_PER_ITERATION = 1
 NUM_PREDS_PER_EPOCH = 100
 
