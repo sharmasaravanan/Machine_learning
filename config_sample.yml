@@ -1,0 +1,12 @@
+language: "en"
+
+pipeline: "spacy_sklearn"
+
+data:
+## intent:affirm
+- yes
+- yep
+
+## intent:goodbye
+- bye
+- goodbye

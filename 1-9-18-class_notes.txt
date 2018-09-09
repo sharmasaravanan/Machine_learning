@@ -68,6 +68,110 @@ SQuAD dataser
 IMDb movie review dataset
 twitter dataset
 
+------------------------------------------------------------------------------------------------------------------------------------
+
+1. linear regression
+
+linear equation => y=mx+c (eqn of line)
+
+y^ = beta0+beta1*x
+
+e.g:-
+
+		(2,5),(3,7),(4,10),(7,?)   -> predicted value is 16 
+
+			y-y^ =0
+
+		y-(beta0+beta1*x) = 0
+
+			5-b0-b1*2=0   --> 1        error calculation:-  y^ = 2+2*2 = 6 => y-y^ = |5-6| = 1
+			7-b0-b1*3=0   --> 2                             y^ = 2+2*3 = 8 => y-y^ = [7-8| = 1
+			
+			solving 1 & 2
+			-2+b1=0
+			
+			[b1=2]
+		apply b1 in 3
+		 
+			10-b0-b1*4=0
+			10-b0-8 = 0
+			2-b0 =0
+			
+			[b0=2]
+		
+		y^=beta0+beta1*x
+		y^ = 2+2*7
+		y^=16
+
+e.g :- 
+              (2,3,8),(4,2,10),(2,8,12),(3,5,?) -> multilinear regression 
+              y^ = beta0+beta1*x_1+beta2*x_2+......+betan*x_n
+            
+Scenario:-
+
+sale value forecasting based Ad 
+
+---------------------------------------------------------------------------------------------------------------------------
+
+2.Logistic Regression 
+
+logit function => log(p/1-p)
+
+logistic function => inverse (logit function) => 1/1+exp(-z) (sigmoid function)
+
+z-> mx+c (output from linear regression)
+
+- infinity to +infinity => 1/1+exp(-z) => 0-1 
+
+biclass -> 0-0.5/0.5-1
+
+multiclass (5) -> 0-0.2/0.2-0.4/..../0.8-1 (multnomial)
+
+Scenario:-
+
+IMDb movie review sentiment analysis
+
+I bought a product from flipkart for 5000 Rs which is very good to use. -> positive
+
+product  flipkart very good  -> positive
+
+CountVectorizer:
+
+my friend's name is John and his pet's name is Tom. (line number 0)
+
+stop words:-
+-> friend's name  John pet's name Tom
+lemmatization:-
+-> friend name John pet name Tom
+
+
+n-gram if n = 1 -> unigram, if n = 2 -> bigram
+
+unigram   				bigram
+
+friend  (0,1)			friend name
+name (0,2)			name John
+John (0,1)			John pet
+pet (0,1)			pet name
+Tom (0,1)			name Tom
+ 
+---------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

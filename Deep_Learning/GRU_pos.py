@@ -1,14 +1,13 @@
+import collections
+import nltk
+
 import matplotlib.pyplot as plt
-import tensorflow as tf
 import numpy as np
-import collections,nltk
 from sklearn.model_selection import train_test_split
-from tensorflow.python.keras.models import Sequential
 from tensorflow.python.keras.layers import Dense, GRU, Embedding
+from tensorflow.python.keras.models import Sequential
 from tensorflow.python.keras.optimizers import Adam
-from tensorflow.python.keras.preprocessing.text import Tokenizer
 from tensorflow.python.keras.preprocessing.sequence import pad_sequences
-from random import shuffle
 
 maxlen = 0
 word_freqs = collections.Counter()
@@ -106,8 +105,8 @@ for i in range(5):
 	sent = " ".join([index2word[x] for x in xtest[0].tolist() if x != 0])
 	print("Predicted\tActual\t\tsentence")
 	print("%.0f\t\t%d\t%s" % (ypred, ylabel, sent))
-	
-text = "Funny that harvard was almost more stressful than MY AUDITION!"
+
+text = "Now I can totally rub it in my dad's face that Seattle sucks more than Pittsburgh does."
 
 words = nltk.word_tokenize(text.lower())
 seqs_test = []

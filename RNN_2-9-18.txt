@@ -1,0 +1,123 @@
+RNN - Recurrent neural network
+
+"A man ate my apple who has purple hair"
+
+a dog barks/car
+
+input,current weight and previous weight
+
+Simple RNN/Vanila RNN
+LSTM -> Long short term memory -> DMN,DCN,Bi-DAF,Bi-LSTM 
+GRU -> gated recurrent unit
+
+
+DMN- Dynamic memory network
+DCN - Dynanmic Co-attention network
+Bi-DAF- Bidirectional Attention flow
+Bi-LSTM - Bidirectional LSTM
+
+
+Input <- Text 
+
+Operation <-> Vector -> word2vec & Wordembedding 
+
+Output -> Text
+
+Method-1:
+	word2vec -> Skipgram/n-gram (count vectorizers)
+	
+Method-2:
+	Wordembedding -> distance 
+	pre-embedding -> GLoVe (Global Vector Value of words)
+
+**Simple RNN/Vanila RNN**
+
+Weights:-
+
+U -> input weight
+v -> Output weight
+w -> hidden state weight
+
+input => x
+output => y
+
+y_t = vh_t
+h_t = tanh(x_t*u_t+w_t*h_t-1)
+
+
+Topologies of RNN:-
+
+1) many to many (2 forms)
+2) one to many
+3) many to one
+
+
+Test input:-
+
+and his th
+
+output:-
+
+are and his hand of the cour and the dormouse the course it the door as the dormouse the course it the door as
+
+**Long short term memory**
+
+has three gates,
+i ->input gate
+f -> forget gate
+o -> output gate
+
+Example:-
+
+"Apple is a fruit. Bob is a mechanic"
+
+forget gate -> f = sigm(h_t-1*w_f+x_t*u_f)
+input gate -> i = sigm(h_t-1*w_i+x_t*u_i)
+operation -> g = tanh(h_t-1*w_g+x_t*u_g)
+output gate -> o= sigm(h_t-1*w_o+x_t*u_o)
+current cell state -> c(t) = (i (x) g) (+) (c_t-1 (x) f)
+current hidden state => h_t = c(t) (x) o 
+
+
+**Gated Recurrent Unit**
+
+it has two gates:-
+
+1. update gate 
+2. reset gate
+
+Example:-
+
+POS Tagging (parts of speech)
+
+Bob is a mechanic -> Bob -> subject/NS ,is -> VP , mechanic -> O
+
+reset gate -> r = sigm(h_t-1*w_r + x_t*u_r)
+update gate -> z = sigm(h_t-1*w_z + x_t*u_z)
+
+c = tanh(w_c*(h_t-1 (x) r) + x_t*u_c)
+output state -> h_t = (z (x) c)(+) ((1-z) (x) h_t-1)
+
+
+Major Application :- Machine comprehension 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
