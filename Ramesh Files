@@ -1,1 +1,62 @@
+import numpy as np
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+from sklearn.cross_validation import train_test_split
+from sklearn import metrics
+import pickle
+from bs4 import BeautifulSoup
+import re
+from nltk.corpus import stopwords
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import roc_auc_score
+'''''''''
+Task as follows.
+    Take labeled traindatalabelled.tsv and clean this up.
+        HMTL tags
+        stop words
+        special charcters including numbers
+        make everything into lower case
+        The finalsentence still should make sense.
+'''''''''
+''''''
+df = pd.read_csv("./labeledTrainData", header=0, delimiter="\t", quoting=3)
+df.dropna(inplace=True)
+#create a new column where you inspect the column sentiment and sort out what is good and what is bad
+df["good rated"]=np.where(df['sentiment']>0,1,0)
+X = df.review
+#Use BS top strip all HTML tags
+df['review'] = [BeautifulSoup(X).getText() for X in df['review']]
+#Replace Special charcetrs and number and finally convert them to lower case
+df['review'] = df['review'].str.replace('\d+', '')
+df['review'] = df['review'].str.replace('$', '')
+df['review'] = df['review'].str.replace('%', '')
+df['review'] = df['review'].str.replace('&', '')
+df['review'] = df['review'].str.replace('*', '')
+df['review'] = df['review'].str.lower()
 
+def apply_stops(lower_word):
+    lowcase=lower_word.lower() #Converting everything to lower case
+    splitwords=lowcase.split() #spiliting sentences into words
+    stopword= [w for w in splitwords if not w in stopwords.words("english")] #removing stopping words
+    final_word= " ".join(stopword)
+    return final_word
+
+#now you hav2 2 columns - one for scores and another for text so split the text into words.
+Y = df.review
+j=Y.size
+stop_words = []
+for i in range(0,j):
+    stop_words.append(apply_stops(Y[i]))
+
+X_train, X_test, y_train, y_test = train_test_split(stop_words,df['good rated'],random_state=0)
+vect=CountVectorizer(min_df=5,ngram_range=(1,2)).fit(X_train)
+X_train_vetorised=vect.transform(X_train)
+model=LogisticRegression()
+model.fit(X_train_vetorised,y_train)
+predictions=model.predict(vect.transform(X_test))
+print ("accuracy:",roc_auc_score(y_test,predictions))
+
+testing="stupid filim, please dont watch this filim at all"
+print(model.predict(vect.transform([testing])))
