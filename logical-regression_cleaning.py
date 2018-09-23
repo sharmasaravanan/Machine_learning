@@ -1,15 +1,10 @@
-import pandas as pd
-import numpy as np
 import re
-import nltk
 import time
-from bs4 import BeautifulSoup
-from sklearn.model_selection import train_test_split
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import roc_auc_score
-from nltk.corpus import stopwords
 
+import numpy as np
+import pandas as pd
+from bs4 import BeautifulSoup
+from nltk.corpus import stopwords
 
 print time.ctime()
 start_time=time.time()
@@ -19,13 +14,15 @@ df.dropna(inplace=True)
 df["Postive rated"]=np.where(df['sentiment']>0,1,0)
 #df["Postive rated"]=pd.cut(df['Sentiment'], [0, 1, 2, np.inf], labels=['Neg','Neu','Pos'])
 
- 	def cleaning_words(raw_words):
+def cleaning_words(raw_words):
 	exam=BeautifulSoup(raw_words,"html.parser") #removing html tags
 	letters=re.sub("[^a-zA-Z]"," ",exam.get_text()) #removing numbers and others except small and capital alphabets
 	low=letters.lower() #Converting everything to lower case
 	words=low.split() #spiliting sentences into words
 	useful= [w for w in words if not w in stopwords.words("english")] #removing stopping words 
-        use_sent= " ".join(useful)
+
+
+use_sent = " ".join(useful)
 	return use_sent
 
 

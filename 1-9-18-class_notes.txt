@@ -155,15 +155,65 @@ John (0,1)			John pet
 pet (0,1)			pet name
 Tom (0,1)			name Tom
  
+apple is a good fruit, apple is in red color,an apple keeps a doctor away  -> min_df = 2
+
+Known words: apple,is,a -> apple -2 ,is - 3 ,a - 4
+unknown words : good,fruit,in,red,color,doctor,keeps,away,an  - 1 
+
+Steps for sentiment analysis:-
+0. Cleaning dataset                                       
+1. Load dataset
+1.a Text into vectors   -> count vectorizers or pre-trained vectors (GLoVe)
+2. Split dataset
+3. Define an algorithm
+4. Training
+5. Validation
+6. Tuning
+7. Testing
+				Cleaning dataset
+				   a. remove NA values (for both text and numericals)
+				   b. fill NA values by using mean/median (for numericals) and mode (For text )
+				   c. remove duplicates (for both text and numericals)
+				   d. remove unwanted inputs (HTML tags,special characters etc...)(for text)
+				   e. remove stopwords (for text)
+				   f. casefolding (for text)
+				   g. resize/crop the image
+				   h. remove noise (for image)
+				   i. rotating the image (if required)
+				   j. converting RGB into single chanel (for image)
+				   				  
 ---------------------------------------------------------------------------------------------------------------------------
+3. SVM -> support vector machine 
 
+Bi-classification algorithm -category
 
+one to one --> A/B
 
+ABC - 3 groups
+one to many --> A/BC -> if it BC then B/C
 
+ABCD - 4 groups
+many to many --> AB/CD --> if it AB then A/B else C/D
 
+margin -> a. Soft margin
+	  b. Hard margin
 
+margin is a distance between first data points and the border.
 
+				+ /|\ o
+---------------------------------------------------------------------------------------------------------------------------
+4. K-means
 
+k => no of cluster
+
+means of vector distance
+
+---------------------------------------------------------------------------------------------------------------------------
+5. KNN -> k Nearest Neighbours
+
+clustering/classification
+
+vector distance
 
 
 
