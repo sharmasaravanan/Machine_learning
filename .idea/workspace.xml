@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccff98f5-613e-4817-b184-308266daa0d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/MSME-Python(2)-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/MSME-Python(2)-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Candy-AI.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Candy-AI.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Copper-AI.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Copper-AI.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSME-Python(2).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/MSME-Python(2).ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSME-Python.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/MSME-Python.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_sample.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config_sample.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guess_game_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/guess_game_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lin-reg.py" beforeDir="false" afterPath="$PROJECT_DIR$/lin-reg.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/online-AI.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/online-AI.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-web/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-web/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-web/keyy.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-web/keyy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threading-example.py" beforeDir="false" afterPath="$PROJECT_DIR$/threading-example.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,24 +31,24 @@
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Ramesh Files" value="1" />
-          <entry key="py" value="20" />
+          <entry key="py" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="17" />
+          <entry key="Python" value="19" />
           <entry key="Scratch" value="3" />
         </counts>
       </usages-collector>
@@ -64,7 +70,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/re_example.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
@@ -76,12 +82,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threading-example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+            <state relative-caret-position="237">
+              <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
-                <marker date="1535182617902" expanded="true" signature="43:48" ph="..." />
+                <marker date="1538299114512" expanded="true" signature="43:48" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gui_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -131,8 +146,8 @@
         <option value="$PROJECT_DIR$/gui_example.py" />
         <option value="$PROJECT_DIR$/full_gui.py" />
         <option value="$PROJECT_DIR$/re_example.py" />
-        <option value="$PROJECT_DIR$/threading-example.py" />
         <option value="$PROJECT_DIR$/Deep_Learning/RNN.py" />
+        <option value="$PROJECT_DIR$/threading-example.py" />
       </list>
     </option>
   </component>
@@ -149,7 +164,20 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Machine_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Machine_learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
@@ -167,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.threading-example">
+  <component name="RunManager" selected="Python.full_gui">
     <configuration name="full_gui" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machine_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -304,10 +332,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.threading-example" />
-        <item itemvalue="Python.re_example" />
         <item itemvalue="Python.full_gui" />
         <item itemvalue="Python.gui_example" />
+        <item itemvalue="Python.threading-example" />
+        <item itemvalue="Python.re_example" />
         <item itemvalue="Python.login_python" />
       </list>
     </recent_temporary>
@@ -414,17 +442,17 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24972737" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24972677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49617487" visible="true" weight="0.32216215" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49617487" weight="0.3214671" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5038251" side_tool="true" weight="0.3214671" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49945474" weight="0.32972974" />
@@ -434,7 +462,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972737" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -444,11 +472,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49945474" weight="0.32686085" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49617487" visible="true" weight="0.3214671" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054526" side_tool="true" weight="0.32972974" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5038251" side_tool="true" weight="0.3214671" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49945474" weight="0.32972974" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49945474" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -568,35 +596,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/full_gui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="203" column="37" selection-start-line="203" selection-start-column="37" selection-end-line="203" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/re_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threading-example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-            <marker date="1535182617902" expanded="true" signature="43:48" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -612,6 +615,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ramesh Files">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threading-example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+            <marker date="1538299114512" expanded="true" signature="43:48" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/full_gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="210" lean-forward="true" selection-start-line="210" selection-end-line="210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

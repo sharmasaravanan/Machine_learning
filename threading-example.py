@@ -34,7 +34,7 @@ people = ['Richard', 'Dinesh', 'Elrich', 'Gilfoyle', 'Gevin']
 
 t = time.time()
 
-greet_them(people)
+greet_them(people
 assign_id(people)
 
 print("Woaahh!! My work is finished..")

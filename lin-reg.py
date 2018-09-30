@@ -1,9 +1,10 @@
 import numpy as np
 import pandas as pd
-from sklearn.linear_model import LinearRegression
-from sklearn.cross_validation import train_test_split
 from sklearn import metrics
-import pickle
+from sklearn.cross_validation import train_test_split
+from sklearn.linear_model import LinearRegression
+
+# import pickle
 
 
 data = pd.read_csv("./Advertising.csv", index_col=0)
@@ -14,7 +15,7 @@ X = data[feature_names]
 
 y = data.sales
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
+X_train, X_test, y_train, y_test = train_test_split(X, y)
 
 linreg = LinearRegression()
 
