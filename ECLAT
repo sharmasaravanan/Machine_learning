@@ -1,0 +1,20 @@
+import pandas as pd
+from mlxtend.preprocessing import TransactionEncoder
+from pyfim import eclat
+import time
+start = time.time()
+print("start time is", start)
+dataset = [['Milk', 'Onion', 'Nutmeg', 'Kidney Beans', 'Eggs', 'Yogurt'],
+           ['Dill', 'Onion', 'Nutmeg', 'Kidney Beans', 'Eggs', 'Yogurt'],
+           ['Milk', 'Apple', 'Kidney Beans', 'Eggs'],
+           ['Milk', 'Unicorn', 'Corn', 'Kidney Beans', 'Yogurt'],
+           ['Corn', 'Onion', 'Onion', 'Kidney Beans', 'Ice cream', 'Eggs']]
+
+te = TransactionEncoder()
+te_ary = te.fit(dataset).transform(dataset)
+df = pd.DataFrame(te_ary, columns=te.columns_)
+frequent_itemsets = eclat(df, target='s', supp=2, min=1, max=100, out=0)
+frequent_itemsets['length'] = frequent_itemsets['itemsets'].apply(lambda x: len(x))
+print(frequent_itemsets)
+etime = time.time() - start
+print(etime)
