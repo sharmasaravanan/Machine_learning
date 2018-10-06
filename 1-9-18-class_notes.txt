@@ -215,6 +215,87 @@ clustering/classification
 
 vector distance
 
+---------------------------------------------------------------------------------------------------------------------------
+
+TASK- Results
+
+Dataset:- IMDb sentiment analysis
+
+Algorithms :- Logistic	SVM	KNN
+
+cleaned		88.5%	 87%	 97%
+
+uncleaned 	89.5%	 88%	 --
+
+uncleaned
+
+the product is awesome
+service is good 
+
+cleaned
+
+product awesome
+service good 
+
+---------------------------------------------------------------------------------------------------------------------------
+6. Hierarchy clustering
+
+clustering scenario 
+
+dendrogram,linkage 
+
+vector distance
+
+dendrogram---> a tree diagram, especially one showing taxonomic relationships.
+
+linkage --> simple,centre/average,complete
+
+eg:-
+
+banana,orange,apple,lemon,papaya
+
+---------------------------------------------------------------------------------------------------------------------------
+7. Apriori 
+
+	     Number of transaction of an item
+support = ------------------------------------
+	     Total number of transaction 
+	     
+for an item to be in offer list, that item should have minimum support 
+
+min_sup = 50% = 3
+
+onion,potato  --> 4
+onion,burger  --> 3
+onion,milk    --> 2
+onion,beer    --> 2
+potato,burger --> 4
+potato,milk   --> 3
+potato,beer   --> 2
+burger,milk   --> 2
+burger,beer   --> 2
+milk,beer     --> 2
+
+two product combo
+onion,potato  
+onion,burger
+potato,burger 
+potato,milk 
+
+width search algorithm
+computational time is high 
+
+one hot encoding
+
+---------------------------------------------------------------------------------------------------------------------------
+8. ECLAT
+
+Equivalent class transformation 
+
+depth search algorithm
+
+---------------------------------------------------------------------------------------------------------------------------
+9. 
 
 
 
