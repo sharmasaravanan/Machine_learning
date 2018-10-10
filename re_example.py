@@ -6,9 +6,9 @@ match_obj = re.match(r'Python', string)
 
 print(match_obj.group(0))
 
-search_obj = re.search(r'easy', string)
+search_obj = re.search(r'Python', string)
 
-print(match_obj.group(0))
+print(search_obj.group(0))
 
 print(re.findall(r'Python', string))
 

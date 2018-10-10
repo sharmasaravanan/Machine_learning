@@ -19,4 +19,4 @@ while 1:
         break
     else:
         print("Your guess isn't quite right, try again.")
-    print (cowbull)
+    print("Cow : %d and Bull : %d" % (cowbull[0], cowbull[1]))
