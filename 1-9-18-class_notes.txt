@@ -287,6 +287,7 @@ computational time is high
 
 one hot encoding
 
+time taken = 0.2S
 ---------------------------------------------------------------------------------------------------------------------------
 8. ECLAT
 
@@ -294,10 +295,85 @@ Equivalent class transformation
 
 depth search algorithm
 
+time taken = 0.06S
+
 ---------------------------------------------------------------------------------------------------------------------------
-9. 
+9. Random forest
+
+Ensemble method -> randomly selected algorithms 
+
+collection of same/different algorithms
+
+randomforest classifier
+randomforest regression
+
+---------------------------------------------------------------------------------------------------------------------------
+10. Adaboost -> adaptive boosting
+
+weaker -> weaker -> stronger
+
+input   :- x1    x2   x3
+
+weights :- 0.2  0.5  0.01
+ 
+Ex output:- -1   1   -1
+
+predicted:- -1  -1   -1
+
+terror   :-  0   1    0
+
+error   = sum(w(i)*terror)/sum(w(i))
+
+	= ((0.2*0)+(0.5*1)+(0.01*0))/(0.2+0.01+0.5)
+	
+	= 0.5/0.71 
+	
+error,E = 0.704
+	
+stage   = ln((1-E)/E)
+
+	= ln(0.296/0.704)
+	
+	= -0.866
+ 
+
+W	= w + exp(terror*stage)
+
+variances:-
+
+	1. Gradient boosting (GB)
+	2. XGB
+---------------------------------------------------------------------------------------------------------------------------
+11. Naive baye's
+
+bayesian -> conditional probability
+
+P(A/B) = P(A)P(B/A) / P(B)
+
+test scenario :- SMHT
+
+P(yes/SMHT) = P(yes) P(SMHT/yes) / P(SMHT) = 0.214
+
+P(SMHT) = P(S)*P(M)*P(H)*P(T)
+
+P(no/SMHT) = P(no) P(SMHT/no) / P(SMHT) = 1.246
+
+P(yes) = 0.214 /(0.214+1.246) = 0.14
+
+P(no) = 1.246 /(0.214+1.246) = 0.86
+
+---------------------------------------------------------------------------------------------------------------------------
+Reference :-
+
+1. medium.com
+2. analyticsvidhya.com
+3. towardsdatascience.com
+4. digitalocean
+5. dzone
+6. dataaspirant
 
 
+arxiv
 
 
 
