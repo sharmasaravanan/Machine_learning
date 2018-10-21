@@ -1,0 +1,22 @@
+{
+  "Syllabus": {
+    "1": "1. Introduction to Deep Learning (DL)",
+    "2": "2. Neural Network (NN) introduction",
+    "3": "3. Deep Learning for images",
+    "4": "3. Deep Learning for Text",
+    "5": "4.preprocessing Techniques for DL",
+    "6": "5.Tools for DL",
+    "7": "6.Practise",
+    "8": "Total"
+  },
+  "Duration": {
+    "1": "90 mins",
+    "2": "240 mins",
+    "3": "180 mins",
+    "4": "150 mins",
+    "5": "120 mins",
+    "6": "150 mins",
+    "7": "180 mins",
+    "8": "18.5 hours"
+  }
+}
