@@ -1,4 +1,101 @@
-hello,how are you
-i am fine
-hey how do you do?
-doing good
+mean
+variance
+skewness
+Kurtosis
+
+mean,median,mode
+variance,SD
+
+
+mean -> average
+median -> midpoint
+
+10,20,30,40,50 -> mean=150/5=30
+               -> median=30
+
+15,000 -2,00,000
+
+		number of occurence of an event
+probability = -------------------------------------
+		total number of occurence 
+
+why ML?
+
+sample = { (1,1),(1,2)........ (6,6)}
+
+A -> B => dep
+
+A B => indep
+
+A  c - B => conditionally dep
+
+			    P(A and B)
+conditional probability =  -------------- = P(A/B)  = 0.35/0.7 = 0.5
+			      P(B)
+
+			P(A) P(B/A)
+Navie Baye's, P(A/B) = --------------
+			   P(B)
+
+70% like chocolate
+35% like strawberry and chocolate 
+
+those who like chocolate also like strawberry -> P(strawberry/chocolate)
+
+SMHT - yes?/no?
+
+		P(yes) P(SMHT/yes)
+P(yes/SMHT) = -----------------------
+		P(S).P(M).P(H).P(T)
+
+		P(no) P(SMHT/no)
+P(no/SMHT) = ------------------------
+		P(S).P(M).P(H).P(T)
+
+Entropy -> measure of randomness (thermodynamics)
+
+Message/Information --> sun rises in the east , entropy is the measure of randomness 
+
+Entropy -> measure of information content
+
+Entropy (H) = - P log_2 (P)
+
+	     log_10 (x)		log_10 (x)
+log_2 (x) = --------------  = --------------
+	     log_10 (2)		  0.3010
+
+p1 = 0.5
+
+h = - 0.5 log2 (0.5)
+
+     log10 (0.5)       -0.3010
+h = ------------  =  ------------ = -1
+      0.3010	        0.3010
+
+H1 = -0.5 * -1 = 0.5
+
+algorithm using entropy is decision tree
+
+Information = High  --> Uncertain or most unlikely event
+
+Information = Low   --> Certain or most likely event
+
+Information = twice --> independent event or mutually exclusive 
+
+Stochostic Process 
+
+part of statistics which deals with random process/random events
+
+			random variable
+		     __________|____________
+		 Continuous		  Discrete
+
+Probability Distribution function
+
+poisson,exponential,gaussian,binomial,uniform 
+
+60% of people who purchase sports cars are men.  If 10 sports car owners are randomly selected, find the probability that exactly 7 are men.
+
+
+
+
