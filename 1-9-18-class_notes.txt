@@ -372,14 +372,148 @@ Reference :-
 5. dzone
 6. dataaspirant
 
+---------------------------------------------------------------------------------------------------------------------------
+12. Decision tree
 
-arxiv
+flow chart 
+
+start -> input -> decision --> yes/no -> output
+
+parameter1,parameter2,parameter3 -> sorting based on information content
+
+entropy = -P log2 P
+
+information gain
+
+H(play) = [-9/14 log2(9/14)]+[-5/14 log2 (5/14)]
+	= 0.409+0.530
+	= 0.930
+
+H(outlook):-
+
+H(sunny) = [-2/5 log2(2/5)]+[-3/5 log2 (3/5)] = 0.9709
+H(overcast)=[-4/4 log2 (4/4)]+[0] = 0
+H(rainy) = [-2/5 log2(2/5)]+[-3/5 log2 (3/5)] = 0.9709
+
+H(outlook) = 0.9709 *(5/14)+ 0*(4/14)+0.9709*(5/14)
+	   = 0.6935
+
+information gain (outlook) = 0.930 - 0.6935
+			   = 0.2365
+
+H(Temp):-
+
+H(hot) = [-2/4 log2 (2/4)]+[-2/4 log2 (2/4)] = 1 
+H(mild) = [-4/6 log2 (4/6)]+[-2/6 log2 (2/6)] = 0.918
+H(cool) =[-3/4 log2 (3/4)]+[-1/4 log2 (1/4)] = 0.811
+
+H(temp) = 1 * (4/14) + 0.918 * (6/14) + 0.811 * (4/14) = 0.910
+
+information gain = 0.930 - 0. 910 = 0.02
+
+
+H(windy):-
+
+H(false) =
+H(true) =
+
+
+H(windy) = 0.939
+
+information gain = 0.009
+
+
+H(humidity):-
+
+H(high) =
+
+H(normal) =
+
+H(humidity) =
+
+information gain =
+
+
+two methods :-
+
+CART  -> classification and regression tree -> gini index
+
+ID3 -> iterative dichotomiser 3 -> entropy
+
+
+gini index = 1 - summation(P_t^2)
+
+---------------------------------------------------------------------------------------------------------------------------
+Metrics
+
+error -> regression
+
+accuracy -> classification
+
+recall,precision and f1 score
+
+recall -> 2008 - 2018 -> 7/10 = 70%
+
+precision -> 10/15 => precision = 100%
+
+	     TP
+recall = ------------
+	    TP + FP
+
+		TP
+precision = -----------   
+	      TP + FN
+
+           	Recall + Precision
+f1 score = 2 * --------------------
+		recall * precision
+
+		    TP + TN 
+accuracy = -------------------------
+	       TP + TN + FP + FN
+---------------------------------------------------------------------------------------------------------------------------
+LDA  and TF-IDF
+
+Topic modeling, NLP preprocessing 
+
+previous method :- LSI
+
+LSI => latent sematics index
+
+LDA => Latent dirichlet allocation
+
+TF-IDF => Term ferquency and inverse document frequency
+
+term => word
+document => sentence/ line
+corpus => paragraph
+
+s1: i eat fish and vegetables
+s2: my pet is fish
+s3: kitten eats fish
+
+parent matrix = document vs term
+
+two child matrix
+
+document vs topic and topic vs term
+
+terms :- eat fish,fish,vegetable,pet, kitten
+
+TF-IDF
+
+word weight => tf * (1/df)
+
+tf => number of times a particular word is repeated
+
+df => how frequent it repeates?
+
+word weight = (1+log(1+tf))*log(N/df)
+
+---------------------------------------------------------------------------------------------------------------------------
 
 
 
-
-
-
-
+ 
 
 

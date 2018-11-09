@@ -1,8 +1,9 @@
-from nltk.corpus import stopwords 
-from nltk.stem.wordnet import WordNetLemmatizer
+import string
+
 import gensim
 from gensim import corpora
-import string
+from nltk.corpus import stopwords
+from nltk.stem.wordnet import WordNetLemmatizer
 
 stop = set(stopwords.words('english'))
 exclude = set(string.punctuation) 
