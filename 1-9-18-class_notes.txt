@@ -511,7 +511,11 @@ df => how frequent it repeates?
 word weight = (1+log(1+tf))*log(N/df)
 
 ---------------------------------------------------------------------------------------------------------------------------
-
+PROJECTS:-
+1. ML Project M1.pdf
+2. Question generation
+3. Extracting likes and dislikes from a text.
+4. emotion identificaton from texts.
 
 
  

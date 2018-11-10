@@ -86,15 +86,122 @@ Stochostic Process
 
 part of statistics which deals with random process/random events
 
-			random variable
+			random variable (x)
 		     __________|____________
 		 Continuous		  Discrete
 
-Probability Distribution function
+Probability Distribution function (X)
 
 poisson,exponential,gaussian,binomial,uniform 
 
 60% of people who purchase sports cars are men.  If 10 sports car owners are randomly selected, find the probability that exactly 7 are men.
+
+probability mass function (PMF) -> discrete -> summation
+probability density function(PDF) -> continuous -> integeral
+marginal probability => 0-60 -> 5seconds,0-20 seconds?
+joint probability (X and Y) 
+
+HYPOTHESIS
+
+---------------------------------------------------------------------------------------------------------------------------
+
+						Linear Algebra
+
+vectors and matrix
+			-5 _______________________ 0
+
+scalar  -> magnitude = 5
+
+vector  -> magnitude and direction => (-5,0)
+
+matrix  -> 2D data 
+
+Tensor  -> 3D data
+
+
+Matrix => by solving Ax = b,we can get to know the given matrix has a solution?
+
+A -> input matrix
+b -> constant value
+x -> variable
+
+how to find a solution?
+1. Rank method
+2. Carmer's rule
+
+Determinant:- square matrix (m x n, m=n) i.e., m=> row, n=> column
+
+     2  4  7       1  x  x
+A =  3  5  2   =>  0  x  x
+     1  0  4       0  0  x
+
+|A| = 2 (20 - 0) -4 (12 - 2) + 7 (0 - 5)
+    = 2 (20) -4 (10) +7 (-5)
+    = 40-40-35
+    = -35
+
+
+Carmer's rule:-
+
+1. |A|!=0 ,|Ax|=|Ay|=|Az|!=0  ---> unique solution
+
+2. |A|=0 ,|Ax|=|Ay|=|Az|!=0   ---> NO solution
+
+3. |A|=0 ,|Ax|=|Ay|=|Az|=0    ---> many/infinite solution
+
+
+x+y+2z = 4, 2x+2y+4z = 8, 3x+3y+6z = 10
+
+   1  1  2   x   4
+=> 2  2  4 * y = 8
+   3  3  6   z   10
+
+|A|  = 0
+
+|Ax| = 0
+
+|Ay| = 0
+
+|Az| = 0
+
+infinite solutions
+
+z = k
+
+x-y   = 4 - 2k
+2x+2y = 8 - 4k
+3x+3y = 10 - 6k
+
+ 2x - 2y =  8 - 4k
+ 2x + 2y =  8 - 4k
+-   -      -  + 
+
+x=0
+y=4 - 2k
+z=k
+(x,y,z) = (0,4-2k,k) k belongs to any real number
+
+why matrix?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
