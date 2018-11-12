@@ -1,9 +1,8 @@
-import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
+import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import roc_auc_score
+from sklearn.model_selection import train_test_split
 
 df = pd.read_csv("labeledTrainData.tsv", header=0, delimiter="\t", quoting=3)
 df.dropna(inplace=True)
