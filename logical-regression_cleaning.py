@@ -6,6 +6,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from nltk.corpus import stopwords
 
+stop = stopwords.words("english")
 print time.ctime()
 start_time=time.time()
 df = pd.read_csv("labeledTrainData.tsv", header=0, delimiter="\t", quoting=3)
@@ -16,10 +17,11 @@ df["Postive rated"]=np.where(df['sentiment']>0,1,0)
 
 def cleaning_words(raw_words):
 	exam=BeautifulSoup(raw_words,"html.parser") #removing html tags
-	letters=re.sub("[^a-zA-Z]"," ",exam.get_text()) #removing numbers and others except small and capital alphabets
+    letters = re.sub("\b[^a-zA-Z]", " ",
+                     exam.get_text())  # removing numbers and others except small and capital alphabets
 	low=letters.lower() #Converting everything to lower case
 	words=low.split() #spiliting sentences into words
-	useful= [w for w in words if not w in stopwords.words("english")] #removing stopping words 
+    useful = [w for w in words if not w in stop]  #removing stopping words
 
 
 use_sent = " ".join(useful)

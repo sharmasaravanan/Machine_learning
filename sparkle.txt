@@ -236,19 +236,101 @@ square matrix -> m x n if m=n
 
 A.At = 1
 
+Decomposition
+
+12 -> 3 x 4 ,6 x 2
+
+{3,2}
+
+1044
+
+Square Matrix -> Eigen Decomposition
+
+Non-Square Matrix -> SVD (singular value decomposition)
+
+PCA - principle component analysis
+
+Problems in AI:-
+
+1. Poor conditioning ==> x -> y, x+1 -> y+1
+
+2. Overfit and underfit
+
+3.  
+
+---------------------------------------------------------------------------------------------------------------------------
+ML Algorithms:-
+
+1. Linear regression -> regression
+2. Logistic regression -> Classification
+3. SVM -> Classification
+4. K-means -> clustering
+5. KNN  -> clustering
+6. Hierarchy clustering -> clustering
+7. LDA -> topic modeling
+8. TF-IDF -> topic modeling
+9. Eclat -> associative learning
+10. Aprior -> associative learning
+11. Random forest -> Ensemble method
+12. AdaBoost -> Ensemble method
+13. Decision tree -> Classification
+14. Naive Baye's -> Classification
+15. PCA -> Dimensionality reduction (coding is not yet completed)
+
+Neural Network:-
+
+1. perceptron
+2. sigmoid
+3. multi layer preceptron
+4. Backpropagation
+4.a gradient descent
+4.b stochostic gradient descent
+5. Vanila neural network
+
+Steps:-
+1. Load dataset
+2. Split dataset (70:30)
+3. Define an algorithm
+4. Training (70%)
+5. Validation - accuracy = 100%
+6. Tuning
+7. Testing (30%) >= 85%
+
+Assume:-
+1. Application
+2. Algorithms
+3. Datasets
+
+---------------------------------------------------------------------------------------------------------------------------
+1. PCA
+
+number of person -> 8
+p=8
+
+each person has 5 images ==> M = 40
+
+single image size => 3 x 3 -> 9 x 1
+
+5 images size => 45 x 1
+
+overall matrix => 45 x 8
+
+mean image size => 45 x 1
 
 
+optimum image processing size => 28 x  28, 64 x 64, 96 x 96, 
 
+45 x 8 . 8 x 45 = 45 x 45
 
+8 x 45 . 45 x 8 = 8 x 8
 
+eigen vector(8 x 8)
 
+eigen space
 
+norm or norm distance
 
-
-
-
-
-
+http://dataaspirant.com/2015/04/11/five-most-popular-similarity-measures-implementation-in-python/
 
 
 

@@ -21,7 +21,7 @@ model.fit(X_train_vetorised,y_train)
 
 predictions=model.predict(vect.transform(X_test))
 
-print ("AUC:",roc_auc_score(y_test,predictions))
+print("AUC:", accuracy_score(y_test, predictions))
 
 feature_name=np.array(vect.get_feature_names())
 
