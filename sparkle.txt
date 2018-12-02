@@ -332,12 +332,74 @@ norm or norm distance
 
 http://dataaspirant.com/2015/04/11/five-most-popular-similarity-measures-implementation-in-python/
 
+---------------------------------------------------------------------------------------------------------------------------
+
+2. Linear Regression
+
+y = mx+c
+
+y -> output
+m -> slope
+c -> intercept
+x -> input
+
+y^ = b0 + b1x => linear regression
+y^ = b0 + b1x1+b2x2+b3x3+....   => multilinear regression/least regression
+
+y  -> actual output
+y^ -> predicted output
+
+y-y^ = 0  --> error
+
+error
+-> absolute error (y-y^)
+-> Mean absolute error (y-y^)/n
+-> mean squared error ((y-y^)^2)/n
+-> Root mean squared error (((y-y^)^2)/n)^1/2
 
 
+gaussian regression,multilinear regression,least square regression,
+
+example:- (3,7.5),(4,11.5),(6,18)(7,?)
+
+y^ = b0+3b1
+y^ = b0+4b1  -> -4.5+4(4) = -4.5+16 = 11.5
+
+y-y^ = 0
+
+7.5-b0-3b1=0
+11.5-b0-4b1=0
+
+solving those two equation 
+
+  7.5-b0-3b1=0
+  11.5-b0-4b1=0
+-     +   +  
+-------------------
+-4+b1=0
+
+b1=4
+
+7.5-b0-3(4)=0
+7.5-12=b0
+
+b0 = -4.5
+
+y^ = -4.5+6(4) = -4.5+24=19.5
+
+18-19.5 = 1.5
+
+y^ = -4.5+7(4) = -4.5+28 = 23.5
 
 
+Dataset:- Advertising.csv
+inputs:- TV,Radio,Newspaper
+output:- sale 
 
+usecase:-
 
+1. To predict the future sale value for future inputs.
+2. To analyze the ratio of inputs 
 
 
 

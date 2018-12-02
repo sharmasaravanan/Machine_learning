@@ -12,6 +12,6 @@ y = [0,1,0,1,0,1]
 clf = svm.SVC(kernel='linear', probability=True)
 clf.fit(x,y)
 
-print clf.predict([[0.58,0.76]])
+clf.predict([[0.58, 0.76]])
 
-print clf.predict([[10.58,10.76]])
+clf.predict([[10.58, 10.76]])
