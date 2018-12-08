@@ -399,7 +399,78 @@ output:- sale
 usecase:-
 
 1. To predict the future sale value for future inputs.
-2. To analyze the ratio of inputs 
+2. To analyze the ratio of inputs
+
+
+---------------------------------------------------------------------------------------------------------------------------
+Logistic Regression
+
+classification category
+
+reason for regression ->  from linear regression 
+
+logit function => log(p/1-p)
+
+inverse of logit => logistic or sigmoid 
+
+logistic => 1/1+exp(-z)
+
+z = - infinity and infinity
+
+exp(-z) = is always positive 
+
+1/exp(-z) = 0 to 1 
+
+0 to 0.5 => class A
+0.5 to 1 => class B
+
+z = b0 + b1x
+
+Dataset:-
+	IMDb movie review 
+
+Class:-
+	1 -> positive
+	0 -> negative
+use case:-
+	sentiment analysis
+
+
+Example:-
+
+I bought a book from amazon which costs 100$ which is so good to read.  -> positive 
+
+Data preprocessing:-
+
+HTML tags, special characters,numbers -> to be removed
+to lower case
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

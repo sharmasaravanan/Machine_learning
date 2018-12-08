@@ -1,18 +1,17 @@
-import matplotlib.pyplot as plt
-
-from sklearn.model_selection import train_test_split
-from sklearn.datasets import fetch_lfw_people
-from sklearn.metrics import classification_report
-from sklearn.decomposition import PCA
-from sklearn.neural_network import MLPClassifier
 import warnings
+
+from sklearn.datasets import fetch_lfw_people
+from sklearn.decomposition import PCA
+from sklearn.metrics import classification_report
+from sklearn.model_selection import train_test_split
+from sklearn.neural_network import MLPClassifier
 
 warnings.filterwarnings("ignore")
 
 # Load data
 lfw_dataset = fetch_lfw_people(min_faces_per_person=100)
 
-_, h, w = lfw_dataset.images.shape
+# _, h, w = lfw_dataset.images.shape
 X = lfw_dataset.data
 y = lfw_dataset.target
 target_names = lfw_dataset.target_names
@@ -30,7 +29,10 @@ X_test_pca = pca.transform(X_test)
 
 # train a neural network
 print("Fitting the classifier to the training set")
-clf = MLPClassifier(hidden_layer_sizes=(1024,), batch_size=256, verbose=True, early_stopping=True).fit(X_train_pca, y_train)
+clf = MLPClassifier(hidden_layer_sizes=(1024, 1024), batch_size=256, verbose=True, early_stopping=True).fit(X_train_pca,
+                                                                                                            y_train)
 
+# clf = svm.SVC()
+#clf.fit(X_train_pca, y_train)
 y_pred = clf.predict(X_test_pca)
 print(classification_report(y_test, y_pred, target_names=target_names))
