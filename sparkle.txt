@@ -261,8 +261,8 @@ Problems in AI:-
 ---------------------------------------------------------------------------------------------------------------------------
 ML Algorithms:-
 
-1. Linear regression -> regression
-2. Logistic regression -> Classification
+1. Linear regression -> regression (completed)
+2. Logistic regression -> Classification (completed)
 3. SVM -> Classification
 4. K-means -> clustering
 5. KNN  -> clustering
@@ -403,7 +403,7 @@ usecase:-
 
 
 ---------------------------------------------------------------------------------------------------------------------------
-Logistic Regression
+2. Logistic Regression
 
 classification category
 
@@ -445,16 +445,41 @@ Data preprocessing:-
 HTML tags, special characters,numbers -> to be removed
 to lower case
 
+---------------------------------------------------------------------------------------------------------------------------
+3. K-Means
+
+unsupervised -> only input -> clustering category -> segementation
 
 
+Vector distance -> Euclidean distance 
+
+K-> no of clusters (default is 8 in sklearn)
+
+k-Means -> hard clustering
+	-> Top to bottom approach 
 
 
+mean Euclidean distance = 0
 
+---------------------------------------------------------------------------------------------------------------------------
+4. KNN -> K-nearest neighbours (clustering/classification)
 
+K-> no of clusters (default is 8 in sklearn)
 
+we don't find center value/centroid
+we don't calculate mean value
 
+---------------------------------------------------------------------------------------------------------------------------
+task:-
 
+twitter dataset -> sentiment analysis -> classsification model 
 
+algorithms:-
+	logistic, KNN -> train and test (cluster)
+
+usa housing dataset -> price predict -> regression model
+	ridge,lasso,elasticnet,huber,linear regression
+---------------------------------------------------------------------------------------------------------------------------
 
 
 
