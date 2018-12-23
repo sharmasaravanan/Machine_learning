@@ -23,7 +23,6 @@ for i in range(len(X)):
     print("coordinate:",X[i], "label:", labels[i])
     plt.plot(X[i][0], X[i][1], colors[labels[i]], markersize = 10)
 
-
-plt.scatter(centroids[:, 0],centroids[:, 1],centroids[:, 2], marker = "x", s=150, linewidths = 5, zorder = 10)
+plt.scatter(centroids[:, 0], centroids[:, 1], marker="x", s=150, linewidths=5, zorder=10)
 
 plt.show()

@@ -22,4 +22,4 @@ def playing():
 	return redirect(url_for('test'))
 	
 if __name__=='__main__':
-	app.run()
+    app.run(host="127.10.10.10")
