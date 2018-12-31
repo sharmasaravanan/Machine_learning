@@ -473,6 +473,7 @@ we don't calculate mean value
 task:-
 
 twitter dataset -> sentiment analysis -> classsification model 
+create short words dictionary.
 
 algorithms:-
 	logistic, KNN -> train and test (cluster)
