@@ -1,0 +1,26 @@
+data loading:-
+
+1. pandas  -> csv,tsv,json,excel
+2. mysqldb -> DB
+3. sqlite3 -> .db file
+4. Json    -> json data
+4. Yaml    -> yml file
+5. pillow  -> image
+
+data preprocessing:-
+
+1. Nltk   -> text pocessing
+2. openCV -> image processing
+3. re	  -> pattern based processing
+4. string -> special characters
+5. beautifulsoup -> HTML tags removing and processing
+6. urllib -> web parsing
+
+
+API:-
+
+1. Flask  -> micro web framework
+2. Django -> web framework
+3. Bottle -> nano web framework
+4. cherrypy -> nano web framework
+

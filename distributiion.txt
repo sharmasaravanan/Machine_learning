@@ -1,0 +1,22 @@
+An automatic camera records the number of cars running a red light at an intersection (that is, the cars were going through when the red light was against the car). Analysis of the data shows that on average 15% of light changes record a car running a red light. Assume that the data has a binomial distribution. What is the probability that in 20 light changes there will be exactly three (3) cars running a red light?
+
+
+Inland Revenue audits 5% of all companies every year. The companies selected for auditing in any one year are independent of the previous year’s selection. 
+
+a) What is the probability that the company ‘Ross Waste Disposal’ will be selected for auditing exactly twice in the next 5 years?
+
+b) What is the probability that the company will be audited exactly twice in the next 2 years?
+
+c) What is the exact probability that this company will be audited at least once in the next 4 years?
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+The average number of accidents at a level-crossing every year is 5. Calculate the probability that there are exactly 3 accidents
+there this year.
+
+
+A 5-litre bucket of water is taken from a swamp. The water contains 75 mosquito larvae. A 200mL flask of water is taken form the bucket for further analysis. What is
+
+a) the expected number of larvae in the flask?
+
+b) the probability that the flask contains at least one mosquito lava?

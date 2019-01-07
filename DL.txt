@@ -1,0 +1,46 @@
+DL Session FLow:-
+
+1.  Calculus
+2.  Denser Neural Network (denser, dense or deep)
+3.  Deep Learning terminology
+4.  CNN (1D and 2D)
+5.  RNN
+5.1 LSTM
+5.2 Bi-LSTM
+5.3 GRU
+
+------------------------------------------------------------------------------------------------------------------------------------
+Calculus -> Differential and integral 
+
+1) Differential -> rate of change with respect to any variable 
+
+		dy
+		-- => differential (derivative)
+		dx 
+
+2) Integral -> integrating all the interval to find the area/volume of the rigid object.
+
+
+		{ y dx
+
+
+Differential calculus
+
+variable -> 
+
+constant ->
+
+functions: y = f(x) = 2x+3
+ -> explicit function => y = 3x+2x**2
+ -> implicit function => axy+by+c=0 => y = -c / (ax+b)
+ -> Integral function => x**3+2x**2+x
+ -> rational fraction => (x**2+2x)/ (5x**3+3x**2)
+ -> rational function => rational fraction + Integral function
+
+equations:
+ -> algebric equations
+ -> transcendental equations
+
+Limit 
+
+derivatives
