@@ -264,9 +264,9 @@ ML Algorithms:-
 1. Linear regression -> regression (completed)
 2. Logistic regression -> Classification (completed)
 3. SVM -> Classification
-4. K-means -> clustering
-5. KNN  -> clustering
-6. Hierarchy clustering -> clustering
+4. K-means -> clustering (completed)
+5. KNN  -> clustering (completed)
+6. Hierarchy clustering -> clustering (completed)
 7. LDA -> topic modeling
 8. TF-IDF -> topic modeling
 9. Eclat -> associative learning
@@ -480,22 +480,62 @@ algorithms:-
 
 usa housing dataset -> price predict -> regression model
 	ridge,lasso,elasticnet,huber,linear regression
----------------------------------------------------------------------------------------------------------------------------
+
+Interview questions:-
+
+https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/
+
+https://www.springboard.com/blog/machine-learning-interview-questions/
+
+https://www.digitalvidya.com/blog/machine-learning-interview-questions/
+----------------------------------------------------------------------------------------------------------------------------------
+5. Hierarchy clustering
 
 
+bottom to top approach
+
+a,b,c,d,e
+
+(a),(b),(c),(d),(e)
+((a,b)c) ((d)e)
+
+apple,mango,pine apple, orange , banana
+
+linkage method:- (complete, average and single/simple)
+	all features,single feature or average features
+
+-> All features -> taste, color, shape, size, seed
+
+Dendrogram -> relationship 
+
+----------------------------------------------------------------------------------------------------------------------------------
+6. SVM
+
+SVM -> Support vector machine (binomial classifier)[A / B]
+
+A B
+
+one to one -> A / B
+
+A B C
+
+one to many -> A / BC --> B / C
+
+A B C D
+
+many to many -> AB / CD 
+		 |   |
+		A/B C/D
 
 
+border
+	 |- soft margin
+margin ->
+	 |- hard margin
 
-
-
-
-
-
-
-
-
-
-
+hyperborder
+gamma
+kernel
 
 
 

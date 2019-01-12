@@ -1,9 +1,10 @@
 import random as r
+
+print("Think any number between 0-100 and keep it with you, let me find out!!")
 min=0
 max=100
 attempt=0
 while 1:
-    print("Think any number between 0-100 and keep it with you, let me find out!!")
     comp=r.randint(min,max)
     print ("\nIsn't it %d ?"%comp)
     user=input("Enter the option \n a.high \n b.low \n c.Bingo \n")

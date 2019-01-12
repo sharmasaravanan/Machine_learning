@@ -1,0 +1,75 @@
+1. python
+2. maths
+3. ML
+4. DL
+5. projects
+
+python:-
+1. Introduction
+2. Basic variables
+3. Conditions
+4. Loops
+5. List, tuple and dictionary
+6. Functions
+7. Importing library
+8. Error handling
+9. File handling
+10. OOPS
+11. Visualization
+
+Mathematics:-
+1. Statistics   
+2. Linear Algebra
+3. Calculus
+
+Machine learning:-
+1. Linear regression -> regression
+2. Logistic regression -> Classification
+3. SVM -> Classification
+4. K-means -> clustering
+5. KNN  -> clustering
+6. Hierarchy clustering -> clustering
+7. LDA -> topic modeling
+8. TF-IDF -> topic modeling
+9. Eclat -> associative learning
+10. Aprior -> associative learning
+11. Random forest -> Ensemble method
+12. AdaBoost -> Ensemble method
+13. Decision tree -> Classification
+14. Naive Baye's -> Classification
+15. PCA -> Dimensionality reduction
+
+Neural Network:-
+
+1. perceptron
+2. sigmoid
+3. multi layer preceptron
+4. Backpropagation
+4.a gradient descent
+4.b stochostic gradient descent
+5. Vanila neural network
+
+Tools:-
+
+pandas,matplotlib,scikit-learn,mlxtend,scipy,keras,numpy,
+
+Github link:-
+
+https://github.com/sharmasaravanan/Machine_learning
+
+Python:-
+
+https://www.python.org/downloads/release/python-368/
+
+other programming languages:-
+		java, c++, GO, R, Julia
+
+
+
+
+
+
+
+
+
+
