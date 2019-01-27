@@ -1,19 +1,15 @@
-import numpy as np
 from keras.datasets import mnist
-from keras.models import Sequential
 from keras.layers.core import Dense, Dropout, Activation
-from keras.optimizers import RMSprop, Adam, SGD
+from keras.models import Sequential
+from keras.optimizers import RMSprop
 from keras.utils import np_utils
-import matplotlib.pyplot as plt
-	
-np.random.seed(1671) 
 
 NB_EPOCH = 30
 BATCH_SIZE = 128
 VERBOSE = 1
-NB_CLASSES = 10 
+NB_CLASSES = 10
 
-OPTIMIZER = Adam() 
+OPTIMIZER = RMSprop() 
 N_HIDDEN = 128
 VALIDATION_SPLIT=0.1
 
@@ -21,6 +17,7 @@ DROPOUT = 0.2
 
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
 
+print(X_test.shape)
 RESHAPED = 784
 
 X_train = X_train.reshape(60000, RESHAPED)
@@ -36,19 +33,20 @@ print(X_test.shape[0], 'test samples')
 
 Y_train = np_utils.to_categorical(y_train, NB_CLASSES)
 Y_test = np_utils.to_categorical(y_test, NB_CLASSES)
+
 '''
 #simple neural network
 model = Sequential()
 model.add(Dense(NB_CLASSES, input_shape=(RESHAPED,)))
-model.add(Activation('softmax'))
+model.add(Activation('relu'))
 
 
 model.compile(loss='categorical_crossentropy', optimizer=OPTIMIZER, metrics=['accuracy'])
-model.fit(X_train, Y_train, batch_size=BATCH_SIZE, epochs=NB_EPOCH,verbose=VERBOSE, validation_split=VALIDATION_SPLIT)
+history = model.fit(X_train, Y_train, batch_size=BATCH_SIZE, epochs=NB_EPOCH,verbose=VERBOSE, validation_split=VALIDATION_SPLIT)
 model.summary()
 
 score = model.evaluate(X_test, Y_test, verbose=VERBOSE)
-print("Test score:", score[0])
+#print("Test score:", score[0])
 print('Test accuracy:', score[1])
 
 
@@ -67,12 +65,11 @@ model.fit(X_train, Y_train, batch_size=BATCH_SIZE, epochs=NB_EPOCH,verbose=VERBO
 model.summary()
 
 score = model.evaluate(X_test, Y_test, verbose=VERBOSE)
-print("Test score:", score[0])
 print('Test accuracy:', score[1])
 
-
-#Regularization
 '''
+#Regularization
+
 model = Sequential()
 model.add(Dense(N_HIDDEN, input_shape=(RESHAPED,)))
 model.add(Activation('relu'))
@@ -87,9 +84,9 @@ model.compile(loss='categorical_crossentropy', optimizer=OPTIMIZER, metrics=['ac
 history=model.fit(X_train, Y_train, batch_size=BATCH_SIZE, epochs=NB_EPOCH,verbose=VERBOSE, validation_split=VALIDATION_SPLIT)
 model.summary()
 score = model.evaluate(X_test, Y_test, verbose=VERBOSE)
-print("Test score:", score[0])
-print('Test accuracy:', score[1])
 
+print('Test accuracy:', score[1])
+'''
 
 plt.plot(history.history['acc'])
 plt.plot(history.history['val_acc'])
@@ -111,3 +108,4 @@ plt.show()
 model_json = model.to_json()
 open('stage-1_architecture.json', 'w').write(model_json)
 model.save_weights('stage-1_weights.h5', overwrite=True)
+'''

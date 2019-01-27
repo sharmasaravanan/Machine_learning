@@ -274,7 +274,7 @@ ML Algorithms:-
 11. Random forest -> Ensemble method
 12. AdaBoost -> Ensemble method
 13. Decision tree -> Classification and regression
-14. Naive Baye's -> Classification  and regression
+14. Naive Baye's -> Classification  and regression	
 15. PCA -> Dimensionality reduction (coding is not yet completed)
 
 Neural Network:-
@@ -609,7 +609,65 @@ onion potato burger milk beer
 (onion).intersect(potato) => t1,t4,t5,t6
 
 ----------------------------------------------------------------------------------------------------------------------------------
+8. Random forest
 
+Ensemble method -> collective 
+
+collection different set of algorithms.
+
+-> average
+-> Max voting 
+
+Classification output:-
+
+A = 0.84, B = 0.07 ,C = 0.09
+
+ridge 91.56
+elasticnet 92.41
+linear  92.75
+
+
+SVM A
+Logistic B
+KNN B
+
+B - 2
+A - 1
+
+n_estimator (sklearn) => no of trees 
+
+sklearn -> base estimator = decision tree
+----------------------------------------------------------------------------------------------------------------------------------
+9. Adaboost 
+
+weaker -> weaker -> stronger
+
+input   :- x1    x2   x3
+
+co-eff(W)   :- 0.2  0.5  0.01
+ 
+Ex output:- -1   1   -1
+
+predicted:- -1  -1   -1
+
+terror   :-  0   1    0
+
+error   = sum(w(i)*terror)/sum(w(i))
+
+	= ((0.2*0)+(0.5*1)+(0.01*0))/(0.2+0.01+0.5)
+	
+	= 0.5/0.71 
+	
+error,E = 0.704
+	
+stage   = ln((1-E)/E)
+
+	= ln(0.296/0.704)
+	
+	= -0.866
+
+W_new	= w_old + exp(terror*stage)
+----------------------------------------------------------------------------------------------------------------------------------
 
 
 

@@ -43,19 +43,22 @@ while i<=9:
     else:
         print ("Player 2 has to play...")
         val='o'
-    r = int(input("Enter the position e.g., 1,2 :"))
+    r, c = input("Enter the position e.g., 1,2 :")
     if m[r][c]==' ':
         m[r][c]=val
     else:
         continue
     if check(m[r]):
+        display(m)
         result(val)
         break
     if check(m[:, c]):
+        display(m)
         result(val)
         break
     if (r,c) in [(0,0),(0,2),(1,1),(2,2),(2,0)]:
         if diag(m):
+            display(m)
             result(val)
             break
     i+=1
