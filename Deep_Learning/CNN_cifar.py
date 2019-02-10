@@ -1,10 +1,9 @@
 from keras.datasets import cifar10
-from keras.utils import np_utils
-from keras.models import Sequential
-from keras.layers.core import Dense, Dropout, Activation, Flatten
 from keras.layers.convolutional import Conv2D, MaxPooling2D
-from keras.optimizers import SGD, Adam, RMSprop
-import matplotlib.pyplot as plt
+from keras.layers.core import Dense, Dropout, Activation, Flatten
+from keras.models import Sequential
+from keras.optimizers import Adam
+from keras.utils import np_utils
 
 # CIFAR_10 is a set of 60K images 32x32 pixels on 3 channels
 IMG_CHANNELS = 3
@@ -51,7 +50,7 @@ model.add(Activation('relu'))
 model.add(Dropout(0.5))
 model.add(Dense(NB_CLASSES))
 model.add(Activation('softmax'))
-model.summary()
+
 
 
 # train
@@ -60,9 +59,9 @@ model.fit(X_train, Y_train, batch_size=BATCH_SIZE,epochs=NB_EPOCH, validation_sp
 
 score = model.evaluate(X_test, Y_test,batch_size=BATCH_SIZE, verbose=VERBOSE)
 
-print("Test score:", score[0])
+# print("Test score:", score[0])
 print('Test accuracy:', score[1])
-
+model.summary()
 #save model
 model_json = model.to_json()
 open('cifar10_architecture.json', 'w').write(model_json)

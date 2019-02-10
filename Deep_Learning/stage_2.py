@@ -1,15 +1,15 @@
-from keras import backend as k
-from keras.models import Sequential
+import matplotlib.pyplot as plt
+import numpy as np
+from keras.datasets import mnist
 from keras.layers.convolutional import Conv2D
 from keras.layers.convolutional import MaxPooling2D
 from keras.layers.core import Activation
-from keras.layers.core import Flatten
 from keras.layers.core import Dense
-from keras.datasets import mnist
+from keras.layers.core import Flatten
+from keras.models import Sequential
+from keras.optimizers import RMSprop
 from keras.utils import np_utils
-from keras.optimizers import SGD, RMSprop, Adam
-import numpy as np
-import matplotlib.pyplot as plt
+
 
 class LeNet:
 	@staticmethod
@@ -17,11 +17,11 @@ class LeNet:
 		model = Sequential()
 		model.add(Conv2D(20, kernel_size=5, padding="same",input_shape=input_shape))
 		model.add(Activation("relu"))
-		model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
+        model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2), dim_ordering="th"))
 		
 		model.add(Conv2D(50, kernel_size=5, border_mode="same"))
 		model.add(Activation("relu"))
-		model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
+        model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2), dim_ordering="th"))
 		
 		model.add(Flatten())
 		model.add(Dense(500))
@@ -29,23 +29,22 @@ class LeNet:
 		model.add(Dense(classes))
 		model.add(Activation("softmax"))
 		return model
-		
-NB_EPOCH = 10
+
+
+NB_EPOCH = 30
 BATCH_SIZE = 128
 VERBOSE = 1
-OPTIMIZER = Adam()
+OPTIMIZER = RMSprop()
 VALIDATION_SPLIT=0.1
 IMG_ROWS, IMG_COLS = 28, 28 
 NB_CLASSES = 10 
 INPUT_SHAPE = (1, IMG_ROWS, IMG_COLS)
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
-k.set_image_dim_ordering("th")
 
 X_train = X_train.astype('float32')
 X_test = X_test.astype('float32')
 X_train /= 255
 X_test /= 255
-
 
 X_train = X_train[:, np.newaxis, :, :]
 X_test = X_test[:, np.newaxis, :, :]
@@ -62,7 +61,7 @@ model.compile(loss="categorical_crossentropy", optimizer=OPTIMIZER,metrics=["acc
 history = model.fit(X_train, y_train,batch_size=BATCH_SIZE, epochs=NB_EPOCH,verbose=VERBOSE, validation_split=VALIDATION_SPLIT)
 
 score = model.evaluate(X_test, y_test, verbose=VERBOSE)
-print("Test score:", score[0])
+# print("Test score:", score[0])
 print('Test accuracy:', score[1])
 
 model.summary()

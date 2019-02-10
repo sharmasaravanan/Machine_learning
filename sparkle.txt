@@ -261,20 +261,20 @@ Problems in AI:-
 ---------------------------------------------------------------------------------------------------------------------------
 ML Algorithms:-
 
-1. Linear regression -> regression (completed)
-2. Logistic regression -> Classification (completed)
-3. SVM -> Classification (completed)
-4. K-means -> clustering (completed)
-5. KNN  -> clustering (completed)
-6. Hierarchy clustering -> clustering (completed)
-7. LDA -> topic modeling
-8. TF-IDF -> topic modeling
-9. Eclat -> associative learning (completed)
+01. Linear regression -> regression (completed)
+02. Logistic regression -> Classification (completed)
+03. SVM -> Classification (completed)
+04. K-means -> clustering (completed)
+05. KNN  -> clustering (completed)
+06. Hierarchy clustering -> clustering (completed)
+07. LDA -> topic modeling
+08. TF-IDF -> topic modeling
+09. Eclat -> associative learning (completed)
 10. Apriori -> associative learning (completed)
-11. Random forest -> Ensemble method
-12. AdaBoost -> Ensemble method
+11. Random forest -> Ensemble method (completed)
+12. AdaBoost -> Ensemble method (completed)
 13. Decision tree -> Classification and regression
-14. Naive Baye's -> Classification  and regression	
+14. Naive Baye's -> Classification  and regression (completed)	
 15. PCA -> Dimensionality reduction (coding is not yet completed)
 
 Neural Network:-
@@ -476,10 +476,10 @@ twitter dataset -> sentiment analysis -> classsification model
 create short words dictionary.
 
 algorithms:-
-	logistic, KNN -> train and test (cluster)
+	logistic, KNN -> train and test (cluster),SVM,radom forest,adaboost and its variance, Naive Baye's
 
 usa housing dataset -> price predict -> regression model
-	ridge,lasso,elasticnet,huber,linear regression
+	ridge,lasso,elasticnet,huber,linear regression,radom forest,adaboost and its variance, Naive Baye's(BayesianRidge)
 
 Interview questions:-
 
@@ -668,8 +668,65 @@ stage   = ln((1-E)/E)
 
 W_new	= w_old + exp(terror*stage)
 ----------------------------------------------------------------------------------------------------------------------------------
+10. Naive Baye's
+
+conditional probability
+
+			P(A) P(B/A)
+Navie Baye's, P(A/B) = --------------
+			   P(B)
+
+Dataset:- 1_Bn3d4Z62sof3K4U1_0pSlQ.jpeg
+ 
+Test case :- SMHT -> encoded version = 2111
+
+output :- play? yes/no
+
+		P(yes) P(smht/yes)
+P(yes/smht) = ----------------------
+		     P(smht)
+
+		P(no) P(smht/no)
+P(no/smht) = ----------------------
+		     P(smht)
+
+           9
+P(yes) = ----
+	  14
+	  5
+P(no) = ----
+	 14
+
+P(smht) =  P(s)*P(m)*P(h)*P(t)
+           5     6     7     6
+	= --- * --- * --- * --- 
+	  14    14     14   14
+
+	   	   2     4     3     3
+P(smht/yes) 	= --- * --- * --- * --- 
+		   9     9     9     9
+
+	   	   3     2     4     3
+P(smht/no) 	= --- * --- * --- * --- 
+		   5     5     5     5
+
+P(yes/smht) = 0.2135
+
+P(no/smht) = 1.2537
+
+	     P(yes/smht)                 0.2135
+P(yes) = ----------------------   = ----------------- =  0.146             
+	 P(yes/smht)+P(no/smht)      0.2135 + 1.2537
 
 
+	     P(no/smht)                1.2537
+P(no) = ---------------------- = ----------------- =  0.854            
+	 P(yes/smht)+P(no/smht)    0.2135 + 1.2537
 
+Output:- No
 
-
+Variances:-
+	Gaussian navie Baye's
+	Mulitnominal NB
+	Binominal NB
+----------------------------------------------------------------------------------------------------------------------------------

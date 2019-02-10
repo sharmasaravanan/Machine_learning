@@ -1,7 +1,11 @@
+import random as rm
+
 import numpy as np
+
 a=[' ',' ',' ',' ',' ',' ',' ',' ',' ']
 m=np.reshape(a,[3,3])
 i=1
+userInput = {1: [0, 0], 2: [0, 1], 3: [0, 2], 4: [1, 0], 5: [1, 1], 6: [1, 2], 7: [2, 0], 8: [2, 1], 9: [2, 2]}
 
 def display(a):
     print ("   ---  ---   ---")
@@ -32,30 +36,35 @@ def diag(m):
         return True
     else:
         return False
-		
-while i<=9:
-    print ("Tic-Tac-Toe")
+
+
+print("Tic-Tac-Toe")
+while i <= 9:
     val='0'
     display(m)
     if i%2!=0:
         print ("Player 1 has to play..")
         val="x"
+        cell = int(input("Enter the position : "))
     else:
         print ("Player 2 has to play...")
         val='o'
-    r, c = input("Enter the position e.g., 1,2 :")
+        cell = rm.choice([1, 2, 3, 4, 5, 6, 7, 8, 9])
+    r = userInput[cell][0]
+    c = userInput[cell][1]    
     if m[r][c]==' ':
         m[r][c]=val
     else:
+        print("Specified cell is already filled. Please select different cel")
         continue
-    if check(m[r]):
+    if check(m[r]) or check(m[:, c]):
         display(m)
         result(val)
         break
-    if check(m[:, c]):
-        display(m)
-        result(val)
-        break
+    #     if check(m[:, c]):
+    #         display(m)
+    #         result(val)
+    #         break
     if (r,c) in [(0,0),(0,2),(1,1),(2,2),(2,0)]:
         if diag(m):
             display(m)
