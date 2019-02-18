@@ -26,8 +26,7 @@ for line in ftrain:
 	num_recs += 1
 ftrain.close()
 
-#print(maxlen)
-#print(len(word_freqs))
+
 
 MAX_FEATURES = 2000
 MAX_SENTENCE_LENGTH = 40
@@ -35,7 +34,7 @@ MAX_SENTENCE_LENGTH = 40
 #for i, x in enumerate(word_freqs.most_common(MAX_FEATURES)):
 #	print(i,x)
 #	input()
-
+# sys.exit(0)
 
 vocab_size = min(MAX_FEATURES, len(word_freqs)) + 2
 word2index = {x[0]: i+2 for i, x in enumerate(word_freqs.most_common(MAX_FEATURES))}

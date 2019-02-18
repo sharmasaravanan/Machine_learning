@@ -26,9 +26,11 @@ SEQLEN = 10
 STEP = 1
 input_chars = []
 label_chars = []
+
 for i in range(0, len(text) - SEQLEN, STEP):
 	input_chars.append(text[i:i + SEQLEN])
 	label_chars.append(text[i + SEQLEN])
+
 
 X = np.zeros((len(input_chars), SEQLEN, nb_chars), dtype=np.bool)#5000 x 10 x 55
 y = np.zeros((len(input_chars), nb_chars), dtype=np.bool)
@@ -51,10 +53,7 @@ model.add(Activation("softmax"))
 model.compile(loss="categorical_crossentropy", optimizer="rmsprop")
 model.summary()
 
-for iteration in range(NUM_ITERATIONS):
-	print("=" * 50)
-	print("Iteration #: %d" % (iteration))
-	model.fit(X, y, batch_size=BATCH_SIZE, epochs=NUM_EPOCHS_PER_ITERATION)
+model.fit(X, y, batch_size=BATCH_SIZE, epochs=NUM_ITERATIONS)
 
 #test_idx = np.random.randint(len(input_chars))
 test_chars = "are and hi"
@@ -69,5 +68,4 @@ for i in range(NUM_PREDS_PER_EPOCH):
 	print(ypred, end="")
 	# move forward with test_chars + ypred
 	test_chars = test_chars[1:] + ypred
-print()
-
+print(test_chars)
