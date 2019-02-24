@@ -273,7 +273,7 @@ ML Algorithms:-
 10. Apriori -> associative learning (completed)
 11. Random forest -> Ensemble method (completed)
 12. AdaBoost -> Ensemble method (completed)
-13. Decision tree -> Classification and regression
+13. Decision tree -> Classification and regression (completed)
 14. Naive Baye's -> Classification  and regression (completed)	
 15. PCA -> Dimensionality reduction (coding is not yet completed)
 
@@ -488,6 +488,10 @@ https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-sta
 https://www.springboard.com/blog/machine-learning-interview-questions/
 
 https://www.digitalvidya.com/blog/machine-learning-interview-questions/
+
+Decision Tree task:
+
+predict the sentiment of twitter tweets using decision tree by using both gini index and entropy and calculate the time taken and accuracy of the both model.
 ----------------------------------------------------------------------------------------------------------------------------------
 5. Hierarchy clustering
 
@@ -729,4 +733,56 @@ Variances:-
 	Gaussian navie Baye's
 	Mulitnominal NB
 	Binominal NB
+----------------------------------------------------------------------------------------------------------------------------------
+11. Decision tree
+	
+1. CART -> classification and regresion tree -> gini index
+
+2. ID3 -> iterative dichotomiser 3 -> entropy and information gain
+
+Entropy 
+
+H = -P log2 P
+
+outlook 
+
+        -2	    2	  -3          3
+sunny = --- * log2 ---  + --- * log2 ---
+	 5          5      5          5
+      =	0.971
+
+	   -4          4
+overcast = --- * log2 ---
+	    4	       4
+	 = 0
+
+        -2	    2	  -3          3
+rainy = --- * log2 ---  + --- * log2 ---
+	 5          5      5          5	
+      = 0.971
+
+	    5	          4         5
+outlook =  --- * -0.27 + --- * 0 + --- * -0.27
+	    14            14        14
+	= 0.693
+
+H(outlook) = 0.693
+
+
+Humidity
+
+
+H(humidity) = 0.7916
+
+
+Play
+
+
+H(play) = 0.9402
+		
+
+information gain(outlook) = H(play) - H(outlook) = 0.9402 - 0.693 = 0.247
+information gain(humidity) = H(play) - H(humidity) = 0.9402 - 0.7916 = 0.148
+
+gini index = 1 - sum(P_t)^2
 ----------------------------------------------------------------------------------------------------------------------------------

@@ -1,8 +1,8 @@
 min<-0
 max<-100
 attempt<-0
+print("Think any number between 0-100 and keep it with you, let me find out!!")
 while (TRUE) {
-    print("Think any number between 0-100 and keep it with you, let me find out!!")
     comp<-sample(min:max,1)
     print(sprintf("\nIsn't it %d ?",comp))
     user<-readline(prompt = "Enter the option \n a.high \n b.low \n c.Bingo \n")
