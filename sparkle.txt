@@ -287,6 +287,18 @@ Neural Network:-
 4.b stochostic gradient descent
 5. Vanila neural network
 
+Deep Learning:-
+1. Optimization of Neural network
+2. Terminology in DL
+3. CNN
+4. RNN
+5. LSTM
+6. GRU
+7. Bi-LSTM
+
+Projects:-
+1. 
+
 Steps:-
 1. Load dataset
 2. Split dataset (70:30)
@@ -786,3 +798,61 @@ information gain(humidity) = H(play) - H(humidity) = 0.9402 - 0.7916 = 0.148
 
 gini index = 1 - sum(P_t)^2
 ----------------------------------------------------------------------------------------------------------------------------------
+12. TF-IDF
+
+term frequency- inverse document frequency
+
+term -> word
+document -> line of sentence/sentence
+corpus -> paragraph
+similarity -> vector distance
+
+Topic modeling
+
+1. TF-IDF
+2. LDA
+3. LSI
+
+
+tfidf weight = tf * idf
+
+	   N
+idf = log(----)
+	   df
+
+tf = (1+log(1+tf))
+
+				    N
+tfidf weight = (1+log(1+tf)) * log(----)
+				    df
+
+-----------------------------------------------------------------------------------------------------------------------------------
+13. Latent Dirichlet allocation
+
+parent matrix  => document(d) vs term(w)
+
+	w1	w2
+d1      1	2
+
+d2	0	1
+
+d3	2	1
+
+
+child matrices => topic(t) vs term(w) , document(d) vs topic(t)
+
+	w1	w2
+t1	0.6	0.9
+
+t2	0.2	0.6
+
+	t1	t2
+d1      
+
+d2
+
+d3
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+
