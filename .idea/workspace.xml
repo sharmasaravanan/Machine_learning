@@ -2,119 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccff98f5-613e-4817-b184-308266daa0d2" name="Default Changelist" comment="updated on 07/10/18">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Machine_learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Machine_learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Agilisium.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Agilisium.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cow_Bull.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cow_Bull.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSME-Python.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/MSME-Python.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ds_text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/re_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/re_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI-Dutch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/AI-Dutch.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI-laser.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/AI-laser.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Untitled1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sparkle.txt" afterDir="false" />
     </list>
+    <ignored path=".idea/inspectionProfiles/" />
+    <ignored path=".ipynb_checkpoints/" />
+    <ignored path="Agilisium.csv" />
+    <ignored path="Agilisium.db" />
+    <ignored path="Agilisium.ipynb" />
+    <ignored path="agilisium.jpg" />
+    <ignored path="agilisium.png" />
+    <ignored path="Agilisium.tsv" />
+    <ignored path="agilisium.txt" />
+    <ignored path="_VFXBR~6.TXT" />
+    <ignored path="_0L0OI~C.CSV" />
+    <ignored path=".idea/codeStyles/" />
+    <ignored path=".idea/dictionaries/" />
+    <ignored path=".idea/libraries/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1970109003">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="20" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.15" value="2" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="21" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="Ramesh Files" value="1" />
-          <entry key="py" value="23" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="20" />
-          <entry key="Scratch" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="11" />
-          <entry key="py" value="2094" />
-          <entry key="txt" value="63" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="74" />
-          <entry key="Python" value="1932" />
-          <entry key="Scratch" value="162" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/re_example.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threading-example.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-                <marker date="1538299114512" expanded="true" signature="43:48" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gui_example.py">
+        <entry file="file://$PROJECT_DIR$/sparkle.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="228">
+              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Deep_Learning/RNN.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="32" column="80" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
-              <folding>
-                <element signature="e#46#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ramesh Files">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -154,7 +81,7 @@
         <option value="$PROJECT_DIR$/Deep_Learning/RNN.py" />
         <option value="$PROJECT_DIR$/threading-example.py" />
         <option value="$PROJECT_DIR$/gui_example.py" />
-        <option value="$USER_HOME$/Desktop/webapp.py" />
+        <option value="$PROJECT_DIR$/../Desktop/webapp.py" />
       </list>
     </option>
   </component>
@@ -171,11 +98,25 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Machine_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Machine_learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/webapp.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/libraries" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -318,8 +259,8 @@
     </configuration>
     <list>
       <item itemvalue="Python.nw_example" />
-      <item itemvalue="Python.gui_example" />
       <item itemvalue="Python.full_gui" />
+      <item itemvalue="Python.gui_example" />
       <item itemvalue="Python.re_example" />
       <item itemvalue="Python.threading-example" />
       <item itemvalue="Python.webapp" />
@@ -455,10 +396,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24972677" />
+      <window_info id="DB Browser" />
+      <window_info id="Project Explorer" />
+      <window_info id="Job Explorer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31886476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Console" />
+      <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
@@ -467,10 +414,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49617487" weight="0.32108107" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3289183" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5038251" side_tool="true" weight="0.3214671" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49945474" weight="0.32972974" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49945474" weight="0.32972974" />
+      <window_info anchor="right" id="R Packages" />
+      <window_info anchor="right" id="R Graphics" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -521,9 +470,20 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
@@ -561,13 +521,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/gui_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/gui_example.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/nw2_example.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/nw_example.py" />
     <entry file="file://$PROJECT_DIR$/nw_example.py">
@@ -619,7 +573,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/webapp.py" />
+    <entry file="file://$PROJECT_DIR$/../Desktop/webapp.py" />
     <entry file="file://$PROJECT_DIR$/re_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -655,6 +609,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkle.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
         </state>
       </provider>
     </entry>

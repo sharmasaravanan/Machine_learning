@@ -267,8 +267,8 @@ ML Algorithms:-
 04. K-means -> clustering (completed)
 05. KNN  -> clustering (completed)
 06. Hierarchy clustering -> clustering (completed)
-07. LDA -> topic modeling
-08. TF-IDF -> topic modeling
+07. LDA -> topic modeling (completed)
+08. TF-IDF -> topic modeling (completed)
 09. Eclat -> associative learning (completed)
 10. Apriori -> associative learning (completed)
 11. Random forest -> Ensemble method (completed)
@@ -853,6 +853,84 @@ d2
 
 d3
 -----------------------------------------------------------------------------------------------------------------------------------
+Neural Network
+
+1. perceptron 
+ single neuron network
+
+to take a decision -> distance,weather,items
+
+weights -> priority given to the decision parameter
+
+bias -> threshold
+
+weights and bias both are initialised randomly.
+
+distance = 0.4
+weather = 0.25
+items = 0.35
+
+threshold = 0.65
+
+x1*w1+x2*w2+x3*w3 < threshold => no
+                 >= threshold => yes
+
+scenario 1:-
+
+x1 = 1 (distance is less)
+x2 = 0 (weather is bad)
+x3 = 1 (items are more)
+
+actual :- yes
+
+1*0.4+0*0.25+1*0.35 = 0.4+0+0.35 = 0.75 >= 0.65 => yes
 
 
+scenario 2:-
+
+x1 = 0 (distance is high)
+x2 = 1 (weather is good)
+x3 = 1 (items are more)
+
+actual :- yes
+
+0*0.4+1*0.25+1*0.35 = 0.25+0.35 = 0.6 < 0.65 => no
+
+
+updating weights:
+
+distance = 0.4
+weather = 0.275
+items = 0.375
+
+threshold = 0.65
+
+scenario 2 (updated weights)
+
+
+x1 = 0 (distance is high)
+x2 = 1 (weather is good)
+x3 = 1 (items are more)
+
+actual :- yes
+
+0*0.4+1*0.275+1*0.375 = 0.275+0.375 = 0.65 >= 0.65 => yes
+
+for any linear systems, 
+
+	 x   ->  y
+	x+x' -> y+y'	
+
+2. Sigmoid neurons -> perceptron with activation function
+
+since perceptron is nonlinear in nature which inverts the output completely for a small change in the weights.
+
+recent trends in activation functions are ReLu,softmax,
+
+
+3. Multilayer perceptron
+
+D = 0.8,0.2,0.5
+
+W = 0.2,0.8,0.5
 
