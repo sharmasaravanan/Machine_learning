@@ -20,4 +20,3 @@ while 1:
         break
     else:
         print ("\nPlease enter the valid option")
-        break

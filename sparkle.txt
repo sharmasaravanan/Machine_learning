@@ -488,10 +488,10 @@ twitter dataset -> sentiment analysis -> classsification model
 create short words dictionary.
 
 algorithms:-
-	logistic, KNN -> train and test (cluster),SVM,radom forest,adaboost and its variance, Naive Baye's
+	logistic, KNN -> train and test (cluster),SVM,radom forest,adaboost and its variance, Naive Baye's,decision tree
 
 usa housing dataset -> price predict -> regression model
-	ridge,lasso,elasticnet,huber,linear regression,radom forest,adaboost and its variance, Naive Baye's(BayesianRidge)
+	ridge,lasso,elasticnet,huber,linear regression,radom forest,adaboost and its variance, Naive Baye's(BayesianRidge),decision tree
 
 Interview questions:-
 
