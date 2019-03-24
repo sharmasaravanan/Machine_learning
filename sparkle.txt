@@ -934,3 +934,23 @@ D = 0.8,0.2,0.5
 
 W = 0.2,0.8,0.5
 
+4. Vanila neural network:
+Activation function :- sigmoid
+Optimizer :- SGD 
+
+Neural network case study:-
+
+hand written digits recoginition 
+
+	Dataset:- MNIST digits dataset -> Training data :- 60,000, Testing Data :- 10,000, number of class :- 10
+		input image size :- 28 x 28
+					
+	Algorithm :- Vanila Neural Network
+	Activation function :- sigmoid
+	Optimizer :- SGD
+	
+output class:- 5 => 0000010000
+	       7 => 0000000100
+
+
+
