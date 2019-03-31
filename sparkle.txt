@@ -275,7 +275,7 @@ ML Algorithms:-
 12. AdaBoost -> Ensemble method (completed)
 13. Decision tree -> Classification and regression (completed)
 14. Naive Baye's -> Classification  and regression (completed)	
-15. PCA -> Dimensionality reduction (coding is not yet completed)
+15. PCA -> Dimensionality reduction (completed)
 
 Neural Network:-
 

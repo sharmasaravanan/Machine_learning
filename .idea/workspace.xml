@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccff98f5-613e-4817-b184-308266daa0d2" name="Default Changelist" comment="updated on 07/10/18">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Machine_learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Machine_learning.iml" afterDir="false" />
+    <list default="true" id="ccff98f5-613e-4817-b184-308266daa0d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI-Dutch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/AI-Dutch.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI-laser.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/AI-laser.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Untitled1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Untitled1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparkle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sparkle.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheet_sheet/28b8210c-60cc-4f13-b0b4-5b4f2ad4790b.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheet_sheet/50d31142-3de0-4159-89b9-18b718a728ef.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheet_sheet/94fc681d-5422-40cb-a129-2218e9522f17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheet_sheet/9f0f2ae1-8bd8-4302-a67b-e17f3059d9e8.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheet_sheet/Numpy_Python_Cheat_Sheet.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheet_sheet/PandasPythonForDataScience.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheet_sheet/Python_Matplotlib_Cheat_Sheet.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheet_sheet/Python_Pandas_Cheat_Sheet_2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheet_sheet/Python_SciPy_Cheat_Sheet_Linear_Algebra.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheet_sheet/f9f06e72-519a-4722-9912-b5de742dbac4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheet_sheet/python.pdf" beforeDir="false" />
     </list>
     <ignored path=".idea/inspectionProfiles/" />
     <ignored path=".ipynb_checkpoints/" />
@@ -34,12 +36,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sparkle.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="532">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -114,6 +116,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/libraries" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
@@ -258,9 +261,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.nw_example" />
       <item itemvalue="Python.full_gui" />
       <item itemvalue="Python.gui_example" />
+      <item itemvalue="Python.nw_example" />
       <item itemvalue="Python.re_example" />
       <item itemvalue="Python.threading-example" />
       <item itemvalue="Python.webapp" />
@@ -391,21 +394,47 @@
       <option name="project" value="LOCAL" />
       <updated>1538929465313</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="updated on 10/03/19">
+      <created>1552201911730</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1552201911730</updated>
+    </task>
+    <task id="LOCAL-00017" summary="updated on 10/03/19">
+      <created>1552217440389</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1552217440390</updated>
+    </task>
+    <task id="LOCAL-00018" summary="updated on 16/03/19">
+      <created>1552835028298</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1552835028298</updated>
+    </task>
+    <task id="LOCAL-00019" summary="updated on 24/03/19">
+      <created>1553436547642</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1553436547643</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="DB Browser" />
-      <window_info id="Project Explorer" />
-      <window_info id="Job Explorer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31886476" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32832497" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Console" />
-      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info id="Project Explorer" order="3" />
+      <window_info id="DB Browser" order="4" />
+      <window_info id="Job Explorer" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
@@ -418,11 +447,13 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5038251" side_tool="true" weight="0.3214671" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49945474" weight="0.32972974" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49945474" weight="0.32972974" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="bottom" id="Console" order="12" />
+      <window_info anchor="bottom" id="DB Execution Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24972677" />
@@ -501,7 +532,10 @@
     <MESSAGE value="updated on 30/09/18" />
     <MESSAGE value="updated on 06/10/18" />
     <MESSAGE value="updated on 07/10/18" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated on 07/10/18" />
+    <MESSAGE value="updated on 10/03/19" />
+    <MESSAGE value="updated on 16/03/19" />
+    <MESSAGE value="updated on 24/03/19" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated on 24/03/19" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -614,8 +648,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sparkle.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="532">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
