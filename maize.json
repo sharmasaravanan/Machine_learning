@@ -1,0 +1,9 @@
+{
+  'language': 'en',
+  'pipeline': 'spacy_sklearn',
+  'data': [
+    'yep',
+    'bye',
+    'goodbye'
+  ]
+}
