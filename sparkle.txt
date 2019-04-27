@@ -952,5 +952,17 @@ hand written digits recoginition
 output class:- 5 => 0000010000
 	       7 => 0000000100
 
+-----------------------------------------------------------------------------------------------------------------------------------
 
+projects :-
+
+1. refer file name : ML project M1.pdf
+2. refer file name : pre-project.pdf
+3. Walmart Sales Forecasting Data Set -> Predict the sales across various departments in each store.
+	https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting/data
+4. Movie suggestions -> Make movie suggestions for users.
+	https://www.kaggle.com/c/movie/data
+5. Credit card fraud detection
+
+-----------------------------------------------------------------------------------------------------------------------------------
 
