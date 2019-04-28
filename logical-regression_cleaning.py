@@ -17,8 +17,10 @@ df["Postive rated"]=np.where(df['sentiment']>0,1,0)
 
 def cleaning_words(raw_words):
 	exam=BeautifulSoup(raw_words,"html.parser") #removing html tags
-    letters = re.sub("\b[^a-zA-Z]", " ",
-                     exam.get_text())  # removing numbers and others except small and capital alphabets
+
+
+letters = re.sub("[^a-zA-Z]", " ",
+                 exam.get_text())  # removing numbers and others except small and capital alphabets
 	low=letters.lower() #Converting everything to lower case
 	words=low.split() #spiliting sentences into words
     useful = [w for w in words if not w in stop]  #removing stopping words
