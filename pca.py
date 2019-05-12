@@ -2,7 +2,7 @@ import warnings
 
 from sklearn.datasets import fetch_lfw_people
 from sklearn.decomposition import PCA
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPClassifier
 
@@ -29,10 +29,11 @@ X_test_pca = pca.transform(X_test)
 
 # train a neural network
 print("Fitting the classifier to the training set")
-clf = MLPClassifier(hidden_layer_sizes=(1024, 1024), batch_size=256, verbose=True, early_stopping=True).fit(X_train_pca,
-                                                                                                            y_train)
+clf = MLPClassifier(hidden_layer_sizes=(512, 512), batch_size=256, verbose=True, early_stopping=True).fit(X_train_pca,
+                                                                                                          y_train)
 
 # clf = svm.SVC()
 #clf.fit(X_train_pca, y_train)
 y_pred = clf.predict(X_test_pca)
 print(classification_report(y_test, y_pred, target_names=target_names))
+print(accuracy_score(y_test, y_pred))
