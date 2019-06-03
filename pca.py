@@ -29,11 +29,13 @@ X_test_pca = pca.transform(X_test)
 
 # train a neural network
 print("Fitting the classifier to the training set")
-clf = MLPClassifier(hidden_layer_sizes=(512, 512), batch_size=256, verbose=True, early_stopping=True).fit(X_train_pca,
-                                                                                                          y_train)
+clf = MLPClassifier(hidden_layer_sizes=(256), batch_size=256, verbose=True, early_stopping=True).fit(X_train_pca,
+                                                                                                     y_train)
 
-# clf = svm.SVC()
-#clf.fit(X_train_pca, y_train)
+# clf1 = RandomForestClassifier(n_estimators=500)
+# clf1.fit(X_train_pca, y_train)
 y_pred = clf.predict(X_test_pca)
+#y_pred1 = clf1.predict(X_test_pca)
 print(classification_report(y_test, y_pred, target_names=target_names))
 print(accuracy_score(y_test, y_pred))
+#print(accuracy_score(y_test, y_pred1))
