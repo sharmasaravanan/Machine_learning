@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccff98f5-613e-4817-b184-308266daa0d2" name="Default Changelist" comment="">
+    <list default="true" id="ccff98f5-613e-4817-b184-308266daa0d2" name="Default Changelist" comment="updated on 31/03/19">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheet_sheet/28b8210c-60cc-4f13-b0b4-5b4f2ad4790b.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheet_sheet/50d31142-3de0-4159-89b9-18b718a728ef.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheet_sheet/94fc681d-5422-40cb-a129-2218e9522f17.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheet_sheet/9f0f2ae1-8bd8-4302-a67b-e17f3059d9e8.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheet_sheet/Numpy_Python_Cheat_Sheet.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheet_sheet/PandasPythonForDataScience.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheet_sheet/Python_Matplotlib_Cheat_Sheet.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheet_sheet/Python_Pandas_Cheat_Sheet_2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheet_sheet/Python_SciPy_Cheat_Sheet_Linear_Algebra.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheet_sheet/f9f06e72-519a-4722-9912-b5de742dbac4.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheet_sheet/python.pdf" beforeDir="false" />
     </list>
     <ignored path=".idea/inspectionProfiles/" />
     <ignored path=".ipynb_checkpoints/" />
@@ -37,11 +27,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sparkle.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="551">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/debug.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -118,7 +117,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../agentz/UserDefined_entity" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RunDashboard">
@@ -422,14 +421,70 @@
       <option name="project" value="LOCAL" />
       <updated>1553436547643</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="updated on 31/03/19">
+      <created>1554044721265</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1554044721265</updated>
+    </task>
+    <task id="LOCAL-00021" summary="updated on 14/04/19">
+      <created>1555261188411</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1555261188411</updated>
+    </task>
+    <task id="LOCAL-00022" summary="updated on 27/04/19">
+      <created>1556373726778</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1556373726778</updated>
+    </task>
+    <task id="LOCAL-00023" summary="updated on 28/04/19">
+      <created>1556459342342</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1556459342342</updated>
+    </task>
+    <task id="LOCAL-00024" summary="updated on 12/05/19">
+      <created>1557671277350</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1557671277350</updated>
+    </task>
+    <task id="LOCAL-00025" summary="updated on 19/05/19">
+      <created>1558261622432</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1558261622432</updated>
+    </task>
+    <task id="LOCAL-00026" summary="updated on 26/05/19">
+      <created>1558860389609</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1558860389609</updated>
+    </task>
+    <task id="LOCAL-00027" summary="updated on 02/06/19">
+      <created>1559542567253</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1559542567254</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32832497" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3713337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Project Explorer" order="3" />
@@ -443,7 +498,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49617487" weight="0.32108107" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3289183" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32829374" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5038251" side_tool="true" weight="0.3214671" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49945474" weight="0.32972974" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49945474" weight="0.32972974" />
@@ -535,7 +590,15 @@
     <MESSAGE value="updated on 10/03/19" />
     <MESSAGE value="updated on 16/03/19" />
     <MESSAGE value="updated on 24/03/19" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated on 24/03/19" />
+    <MESSAGE value="updated on 31/03/19" />
+    <MESSAGE value="updated on 14/04/19" />
+    <MESSAGE value="updated on 27/04/19" />
+    <MESSAGE value="updated on 28/04/19" />
+    <MESSAGE value="updated on 12/05/19" />
+    <MESSAGE value="updated on 19/05/19" />
+    <MESSAGE value="updated on 26/05/19" />
+    <MESSAGE value="updated on 02/06/19" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated on 02/06/19" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -648,8 +711,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sparkle.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="551">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
