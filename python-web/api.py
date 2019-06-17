@@ -13,7 +13,6 @@ def preprocess():
              l = data["language"]
              t = data["topic"]
              res = '{'+'"Content":"{}"'.format(c+'-'+l+'-'+t)+'}'
-             print(json.loads(res))
              return Response(json.dumps(json.loads(res)),mimetype='application/json')
              
 if __name__=='__main__':
