@@ -1,13 +1,15 @@
-from flask import Flask,request,Response
 import json
 
-
+from flask import Flask, request, Response, jsonify
 
 app=Flask(__name__)
 
 @app.route('/test',methods=['POST','GET'])
 def preprocess():
-    if request.method=='POST':
+    if request.method == "GET":
+        resp = {"status": "SUCCESS", "error": " "}
+        return jsonify(resp)
+    elif request.method == 'POST':
              data=request.get_json()
              c = data["course"]
              l = data["language"]
@@ -16,4 +18,4 @@ def preprocess():
              return Response(json.dumps(json.loads(res)),mimetype='application/json')
              
 if __name__=='__main__':
-	app.run(host="0.0.0.0",port=8000)
+    app.run()
