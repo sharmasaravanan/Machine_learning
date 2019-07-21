@@ -1,0 +1,3 @@
+apple is a fruit
+Bob is a mechanical.
+I am writting this from read operation
