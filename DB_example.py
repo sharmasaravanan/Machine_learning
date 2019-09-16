@@ -1,6 +1,6 @@
 import MySQLdb
 
-db = MySQLdb.connect(host="localhost", user="admin", passwd="admin123", db="test")
+db = MySQLdb.connect(host="localhost", user="admin", passwd="test@123", db="testDB")
 
 cur = db.cursor()
 
