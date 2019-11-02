@@ -1,0 +1,4 @@
+petal_width     2.4
+sepal_length    6.3
+sepal_width     3.4
+Name: 5, dtype: object
