@@ -1,11 +1,10 @@
-import random as r
 j=["rock","scissor","paper"]
 while 1:
     user=input("Enter your choice :")
     if user=="quit" or user=="q":
         print ("Good Bye....")
         break
-    comp=r.choice(j)
+    comp = input("Enter your choice :")  # r.choice(j)
     print ("Your choice is ",user,"and computer choice is ",comp)
     if user==comp:
         print ("Game is tie")

@@ -1,3 +1,0 @@
-I am writing this content for the file handling
-I am taking it
-I am appending the content at the end of the file

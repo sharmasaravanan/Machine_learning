@@ -1,4 +1,0 @@
-Hi, Hello, this is from python for file handling
-I am wrtting a txt file
-append mode operation
-I am wrtting 

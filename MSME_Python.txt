@@ -1,6 +1,0 @@
-File handling in python
-writing something in the text file
-testing append mode
-github testing 
-hiiiii
-hello
