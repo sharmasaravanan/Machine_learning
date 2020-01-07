@@ -1,55 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccff98f5-613e-4817-b184-308266daa0d2" name="Default Changelist" comment="">
+    <list default="true" id="ccff98f5-613e-4817-b184-308266daa0d2" name="Default Changelist" comment="Updated on 21/07/19">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/AI-vanilla-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Machine_learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Machine_learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path=".idea/inspectionProfiles/" />
-    <ignored path=".ipynb_checkpoints/" />
-    <ignored path="Agilisium.csv" />
-    <ignored path="Agilisium.db" />
-    <ignored path="Agilisium.ipynb" />
-    <ignored path="agilisium.jpg" />
-    <ignored path="agilisium.png" />
-    <ignored path="Agilisium.tsv" />
-    <ignored path="agilisium.txt" />
-    <ignored path="_VFXBR~6.TXT" />
-    <ignored path="_0L0OI~C.CSV" />
-    <ignored path=".idea/codeStyles/" />
-    <ignored path=".idea/dictionaries/" />
-    <ignored path=".idea/libraries/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparkle.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/debug.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,73 +34,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/xml_example.py" />
-        <option value="$PROJECT_DIR$/class_example.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/gui_example.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/nw2_example.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/nw_example.py" />
-        <option value="$PROJECT_DIR$/nw_example.py" />
-        <option value="$PROJECT_DIR$/database.py" />
-        <option value="$PROJECT_DIR$/client-chat.py" />
-        <option value="$PROJECT_DIR$/nw2_example.py" />
-        <option value="$PROJECT_DIR$/full_gui.py" />
-        <option value="$PROJECT_DIR$/re_example.py" />
-        <option value="$PROJECT_DIR$/Deep_Learning/RNN.py" />
-        <option value="$PROJECT_DIR$/threading-example.py" />
-        <option value="$PROJECT_DIR$/gui_example.py" />
-        <option value="$PROJECT_DIR$/../Desktop/webapp.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="63" />
-    <option name="y" value="27" />
-    <option name="width" value="764" />
-    <option name="height" value="587" />
-  </component>
+  <component name="ProjectId" id="1OeJwDcxQErtr8yF7pw5S0JMdl0" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Machine_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Machine_learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../agentz/UserDefined_entity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.webapp">
     <configuration name="full_gui" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -282,6 +194,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -292,132 +216,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534689265648</updated>
-    </task>
-    <task id="LOCAL-00001" summary="updated on 19/8/18">
-      <created>1534689415483</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1534689415483</updated>
-    </task>
-    <task id="LOCAL-00002" summary="updated on 19/8/18-2">
-      <created>1534695339835</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1534695339835</updated>
-    </task>
-    <task id="LOCAL-00003" summary="updated on 21/08/18">
-      <created>1534832884798</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1534832884799</updated>
-    </task>
-    <task id="LOCAL-00004" summary="updated on 22/08/18">
-      <created>1534873493835</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1534873493836</updated>
-    </task>
-    <task id="LOCAL-00005" summary="updated on 23/08/18">
-      <created>1534961649917</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1534961649917</updated>
-    </task>
-    <task id="LOCAL-00006" summary="updated on 23/08/18-2">
-      <created>1534995324782</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1534995324782</updated>
-    </task>
-    <task id="LOCAL-00007" summary="updated on 23/08/18-3">
-      <created>1535007825483</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1535007825483</updated>
-    </task>
-    <task id="LOCAL-00008" summary="updated on 23/08/18-3">
-      <created>1535635361343</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1535635361343</updated>
-    </task>
-    <task id="LOCAL-00009" summary="updated on 30/08/18">
-      <created>1535635410378</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1535635410378</updated>
-    </task>
-    <task id="LOCAL-00010" summary="updated on 2/09/18">
-      <created>1535885907294</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1535885907294</updated>
-    </task>
-    <task id="LOCAL-00011" summary="updated on 09/09/18">
-      <created>1536502267767</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1536502267767</updated>
-    </task>
-    <task id="LOCAL-00012" summary="updated on 23/09/18">
-      <created>1537716418368</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1537716418368</updated>
-    </task>
-    <task id="LOCAL-00013" summary="updated on 30/09/18">
-      <created>1538299658720</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1538299658720</updated>
-    </task>
-    <task id="LOCAL-00014" summary="updated on 06/10/18">
-      <created>1538841126124</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1538841126124</updated>
-    </task>
-    <task id="LOCAL-00015" summary="updated on 07/10/18">
-      <created>1538929465313</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1538929465313</updated>
-    </task>
-    <task id="LOCAL-00016" summary="updated on 10/03/19">
-      <created>1552201911730</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1552201911730</updated>
-    </task>
-    <task id="LOCAL-00017" summary="updated on 10/03/19">
-      <created>1552217440389</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1552217440390</updated>
-    </task>
-    <task id="LOCAL-00018" summary="updated on 16/03/19">
-      <created>1552835028298</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1552835028298</updated>
     </task>
     <task id="LOCAL-00019" summary="updated on 24/03/19">
       <created>1553436547642</created>
@@ -517,59 +315,253 @@
       <option name="project" value="LOCAL" />
       <updated>1562500706417</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="SRM Workshop">
+      <created>1562589979653</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1562589979653</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Updated on 19/07/19">
+      <created>1563528594993</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1563528594993</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Updated on 21/07/19">
+      <created>1563713945284</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1563713945284</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Updated on 28/07/19">
+      <created>1564332622034</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1564332622034</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Updated on 04/08/19">
+      <created>1564921299752</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1564921299752</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Updated on 25/08/19">
+      <created>1566750769087</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1566750769088</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Updated on 30/08/19">
+      <created>1567170250410</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1567170250410</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Updated on 15/09/19">
+      <created>1568636512224</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1568636512224</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Updated on 21/09/19">
+      <created>1569083388208</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1569083388208</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Updated on 22/09/19">
+      <created>1569136486800</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1569136486800</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Updated on 27/09/19">
+      <created>1569577146293</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1569577146293</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Updated on 27/09/19">
+      <created>1569591512564</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1569591512564</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Updated on 28/09/19">
+      <created>1569686029383</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1569686029383</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Updated on 30/09/19">
+      <created>1569814710676</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1569814710676</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Updated on 06/10/19">
+      <created>1570343210555</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1570343210555</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Updated on 12/10/19">
+      <created>1570887089803</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1570887089803</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Updated on 20/10/19">
+      <created>1571573960074</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1571573960074</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Updated on 2/11/19">
+      <created>1572668031609</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1572668031609</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Updated on 02/11/19">
+      <created>1572690623099</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1572690623099</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Updated on 10/11/19">
+      <created>1573385362677</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1573385362678</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Updated on 16/11/19">
+      <created>1573920372125</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1573920372126</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Updated on 17/11/19">
+      <created>1574003881693</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1574003881694</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Updated on 21/11/19">
+      <created>1574306497309</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1574306497309</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Updated on 23/11/19">
+      <created>1574525576041</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1574525576041</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Updated on 24/11/19">
+      <created>1574608061249</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1574608061249</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Updated on 24/11/19">
+      <created>1574608100170</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1574608100170</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Updated on 24/11/19">
+      <created>1574610730041</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1574610730041</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Updated on 27/11/19">
+      <created>1574823925837</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1574823925838</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Updated on 04/12/19">
+      <created>1575426009734</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1575426009735</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Updated on 07/12/19">
+      <created>1575704916786</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1575704916787</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Updated on 21/12/19">
+      <created>1576938611860</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1576938611861</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Updated on 21/07/19-2">
+      <created>1576942164437</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1576942164438</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Updated on 22/12/19">
+      <created>1576999133289</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1576999133289</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Updated on 04/01/20">
+      <created>1578138575652</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1578138575652</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Updated on 05/01/20">
+      <created>1578235918265</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1578235918265</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4034311" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Project Explorer" order="3" />
-      <window_info id="DB Browser" order="4" />
-      <window_info id="Job Explorer" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49617487" weight="0.32108107" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32829374" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5038251" side_tool="true" weight="0.3214671" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49945474" weight="0.32972974" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49945474" weight="0.32972974" />
-      <window_info anchor="bottom" id="Console" order="12" />
-      <window_info anchor="bottom" id="DB Execution Console" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="R Packages" order="3" />
-      <window_info anchor="right" id="R Graphics" order="4" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24972677" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49617487" weight="0.32108107" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5038251" side_tool="true" weight="0.3214671" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49945474" weight="0.32972974" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49945474" weight="0.32972974" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -577,20 +569,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -612,159 +591,46 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="updated on 23/08/18-2" />
-    <MESSAGE value="updated on 23/08/18-3" />
-    <MESSAGE value="updated on 30/08/18" />
-    <MESSAGE value="updated on 2/09/18" />
-    <MESSAGE value="updated on 09/09/18" />
-    <MESSAGE value="updated on 23/09/18" />
-    <MESSAGE value="updated on 30/09/18" />
-    <MESSAGE value="updated on 06/10/18" />
-    <MESSAGE value="updated on 07/10/18" />
-    <MESSAGE value="updated on 10/03/19" />
-    <MESSAGE value="updated on 16/03/19" />
-    <MESSAGE value="updated on 24/03/19" />
-    <MESSAGE value="updated on 31/03/19" />
-    <MESSAGE value="updated on 14/04/19" />
-    <MESSAGE value="updated on 27/04/19" />
-    <MESSAGE value="updated on 28/04/19" />
-    <MESSAGE value="updated on 12/05/19" />
-    <MESSAGE value="updated on 19/05/19" />
-    <MESSAGE value="updated on 26/05/19" />
-    <MESSAGE value="updated on 02/06/19" />
-    <MESSAGE value="updated on 09/06/19" />
-    <MESSAGE value="updated on 16/06/19" />
-    <MESSAGE value="updated on 23/06/19" />
-    <MESSAGE value="updated on 30/06/19" />
-    <MESSAGE value="updated on 7/7/19" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated on 7/7/19" />
+    <MESSAGE value="Updated on 15/09/19" />
+    <MESSAGE value="Updated on 21/09/19" />
+    <MESSAGE value="Updated on 22/09/19" />
+    <MESSAGE value="Updated on 27/09/19" />
+    <MESSAGE value="Updated on 28/09/19" />
+    <MESSAGE value="Updated on 30/09/19" />
+    <MESSAGE value="Updated on 06/10/19" />
+    <MESSAGE value="Updated on 12/10/19" />
+    <MESSAGE value="Updated on 20/10/19" />
+    <MESSAGE value="Updated on 2/11/19" />
+    <MESSAGE value="Updated on 02/11/19" />
+    <MESSAGE value="Updated on 10/11/19" />
+    <MESSAGE value="Updated on 16/11/19" />
+    <MESSAGE value="Updated on 17/11/19" />
+    <MESSAGE value="Updated on 21/11/19" />
+    <MESSAGE value="Updated on 23/11/19" />
+    <MESSAGE value="Updated on 24/11/19" />
+    <MESSAGE value="Updated on 27/11/19" />
+    <MESSAGE value="Updated on 04/12/19" />
+    <MESSAGE value="Updated on 07/12/19" />
+    <MESSAGE value="Updated on 21/12/19" />
+    <MESSAGE value="Updated on 21/07/19-2" />
+    <MESSAGE value="Updated on 22/12/19" />
+    <MESSAGE value="Updated on 04/01/20" />
+    <MESSAGE value="Updated on 05/01/20" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated on 05/01/20" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xml_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/gui_example.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/nw2_example.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/nw_example.py" />
-    <entry file="file://$PROJECT_DIR$/nw_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nw2_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-chat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-chat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/full_gui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="210" lean-forward="true" selection-start-line="210" selection-end-line="210" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Desktop/webapp.py" />
-    <entry file="file://$PROJECT_DIR$/re_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threading-example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-            <marker date="1538299114512" expanded="true" signature="43:48" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deep_Learning/RNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="32" column="80" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
-          <folding>
-            <element signature="e#46#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ramesh Files">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkle.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="600" y="146" width="777" height="812" key="CommitChangelistDialog2" timestamp="1578235917736">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="600" y="146" width="777" height="812" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1578235917736" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1578235922771">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1578235922771" />
   </component>
 </project>
