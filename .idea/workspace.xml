@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccff98f5-613e-4817-b184-308266daa0d2" name="Default Changelist" comment="Updated on 21/07/19">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/rSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/AI-vanilla-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Machine_learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Machine_learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,13 +210,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534689265648</updated>
-    </task>
-    <task id="LOCAL-00019" summary="updated on 24/03/19">
-      <created>1553436547642</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1553436547643</updated>
     </task>
     <task id="LOCAL-00020" summary="updated on 31/03/19">
       <created>1554044721265</created>
@@ -560,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578235918265</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Updated on 07/01/20">
+      <created>1578405354464</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1578405354464</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -593,7 +587,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Updated on 15/09/19" />
     <MESSAGE value="Updated on 21/09/19" />
     <MESSAGE value="Updated on 22/09/19" />
     <MESSAGE value="Updated on 27/09/19" />
@@ -618,19 +611,20 @@
     <MESSAGE value="Updated on 22/12/19" />
     <MESSAGE value="Updated on 04/01/20" />
     <MESSAGE value="Updated on 05/01/20" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated on 05/01/20" />
+    <MESSAGE value="Updated on 07/01/20" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated on 07/01/20" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="600" y="146" width="777" height="812" key="CommitChangelistDialog2" timestamp="1578235917736">
+    <state x="600" y="146" width="777" height="812" key="CommitChangelistDialog2" timestamp="1578507842892">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="600" y="146" width="777" height="812" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1578235917736" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1578235922771">
+    <state x="600" y="146" width="777" height="812" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1578507842892" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1578405362381">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1578235922771" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1578405362381" />
   </component>
 </project>
