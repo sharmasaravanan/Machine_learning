@@ -210,34 +210,6 @@
       <option name="presentableId" value="Default" />
       <updated>1534689265648</updated>
     </task>
-    <task id="LOCAL-00022" summary="updated on 27/04/19">
-      <created>1556373726778</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1556373726778</updated>
-    </task>
-    <task id="LOCAL-00023" summary="updated on 28/04/19">
-      <created>1556459342342</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1556459342342</updated>
-    </task>
-    <task id="LOCAL-00024" summary="updated on 12/05/19">
-      <created>1557671277350</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1557671277350</updated>
-    </task>
-    <task id="LOCAL-00025" summary="updated on 19/05/19">
-      <created>1558261622432</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1558261622432</updated>
-    </task>
     <task id="LOCAL-00026" summary="updated on 26/05/19">
       <created>1558860389609</created>
       <option name="number" value="00026" />
@@ -553,7 +525,35 @@
       <option name="project" value="LOCAL" />
       <updated>1578886277357</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Updated on 19/01/20">
+      <created>1579432724914</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1579432724915</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Updated on 21/01/20">
+      <created>1579572275674</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1579572275675</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Updated on 23/01/20">
+      <created>1579755366856</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1579755366856</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Updated on 25/01/20">
+      <created>1579923934428</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1579923934429</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -586,10 +586,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Updated on 27/09/19" />
-    <MESSAGE value="Updated on 28/09/19" />
-    <MESSAGE value="Updated on 30/09/19" />
-    <MESSAGE value="Updated on 06/10/19" />
     <MESSAGE value="Updated on 12/10/19" />
     <MESSAGE value="Updated on 20/10/19" />
     <MESSAGE value="Updated on 2/11/19" />
@@ -611,19 +607,23 @@
     <MESSAGE value="Updated on 07/01/20" />
     <MESSAGE value="Updated on 08/01/20" />
     <MESSAGE value="Updated on 12/01/20" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated on 12/01/20" />
+    <MESSAGE value="Updated on 19/01/20" />
+    <MESSAGE value="Updated on 21/01/20" />
+    <MESSAGE value="Updated on 23/01/20" />
+    <MESSAGE value="Updated on 25/01/20" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated on 25/01/20" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="600" y="146" width="777" height="812" key="CommitChangelistDialog2" timestamp="1578886276803">
+    <state x="600" y="146" width="777" height="812" key="CommitChangelistDialog2" timestamp="1579923934265">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="600" y="146" width="777" height="812" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1578886276803" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1578886281796">
+    <state x="600" y="146" width="777" height="812" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1579923934265" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1579923939184">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1578886281796" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1579923939184" />
   </component>
 </project>
