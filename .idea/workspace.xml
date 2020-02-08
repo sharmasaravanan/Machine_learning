@@ -210,20 +210,6 @@
       <option name="presentableId" value="Default" />
       <updated>1534689265648</updated>
     </task>
-    <task id="LOCAL-00028" summary="updated on 09/06/19">
-      <created>1560087995389</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1560087995389</updated>
-    </task>
-    <task id="LOCAL-00029" summary="updated on 16/06/19">
-      <created>1560752956066</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1560752956066</updated>
-    </task>
     <task id="LOCAL-00030" summary="updated on 23/06/19">
       <created>1561260144929</created>
       <option name="number" value="00030" />
@@ -553,7 +539,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580349634637</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Updated on 01/02/20">
+      <created>1580535453665</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1580535453665</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Updated on 08/02/20">
+      <created>1581155230508</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1581155230509</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -586,8 +586,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Updated on 2/11/19" />
-    <MESSAGE value="Updated on 02/11/19" />
     <MESSAGE value="Updated on 10/11/19" />
     <MESSAGE value="Updated on 16/11/19" />
     <MESSAGE value="Updated on 17/11/19" />
@@ -611,19 +609,23 @@
     <MESSAGE value="Updated on 25/01/20" />
     <MESSAGE value="Updated on 29/01/20" />
     <MESSAGE value="Updated on 30/01/20" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated on 30/01/20" />
+    <MESSAGE value="Updated on 01/02/20" />
+    <MESSAGE value="Updated on 08/02/20" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated on 08/02/20" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="600" y="146" width="777" height="812" key="CommitChangelistDialog2" timestamp="1580349634321">
+    <state x="600" y="146" width="777" height="812" key="CommitChangelistDialog2" timestamp="1581155229628">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="600" y="146" width="777" height="812" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1580349634321" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1580349638851">
+    <state x="600" y="146" key="CommitChangelistDialog2/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1581155229628" />
+    <state x="600" y="146" width="777" height="812" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1580535451642" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581155232780">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1580349638851" />
+    <state x="588" y="288" key="Vcs.Push.Dialog.v2/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1581155232780" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1580535458779" />
   </component>
 </project>
