@@ -19,9 +19,9 @@ error  -> regression
 error:-
 
 absolute error:- y-y^
-mean absolute error:- (y-y^)/n
-mean squared error:- (y-y^)**2/n
-least mean squared error sqrt((y-y^)**2/n)
+mean absolute error:- summation(y-y^)/n
+mean squared error:- summation(y-y^)**2/n
+least mean squared error sqrt(summation(y-y^)**2/n)
 
 ML Algorithms:-
 
