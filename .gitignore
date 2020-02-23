@@ -40,3 +40,7 @@ _VFXBR~6.TXT
 __pycache__/
 housePrediction/__pycache__/
 webscrapping.ipynb
+
+*checkpoint.ipynb
+!/.ipynb_checkpoints/Data science-python-checkpoint.ipynb
+!/.ipynb_checkpoints/

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccff98f5-613e-4817-b184-308266daa0d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abhi_DS.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Abhi_DS.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Australia.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Australia.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSME_DS_Feb2020.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/MSME_DS_Feb2020.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Python.webapp">
     <configuration name="full_gui" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -174,9 +171,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.nw_example" />
       <item itemvalue="Python.full_gui" />
       <item itemvalue="Python.gui_example" />
+      <item itemvalue="Python.nw_example" />
       <item itemvalue="Python.re_example" />
       <item itemvalue="Python.threading-example" />
       <item itemvalue="Python.webapp" />
@@ -213,13 +210,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534689265648</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Updated on 21/07/19">
-      <created>1563713945284</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1563713945284</updated>
     </task>
     <task id="LOCAL-00036" summary="Updated on 28/07/19">
       <created>1564332622034</created>
@@ -557,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581774854866</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Updated on 16/02/20">
+      <created>1581859700444</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1581859700444</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -590,7 +587,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Updated on 24/11/19" />
     <MESSAGE value="Updated on 27/11/19" />
     <MESSAGE value="Updated on 04/12/19" />
     <MESSAGE value="Updated on 07/12/19" />
@@ -615,21 +611,30 @@
     <MESSAGE value="Updated on 10/02/20" />
     <MESSAGE value="Updated on 12/02/20" />
     <MESSAGE value="Updated on 15/02/20" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated on 15/02/20" />
+    <MESSAGE value="Updated on 16/02/20" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated on 16/02/20" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="600" y="146" width="782" height="917" key="CommitChangelistDialog2" timestamp="1581774853698">
+    <state x="600" y="146" width="782" height="917" key="CommitChangelistDialog2" timestamp="1581859700364">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="600" y="146" width="782" height="917" key="CommitChangelistDialog2/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1581301780742" />
-    <state x="600" y="146" width="777" height="812" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1581774853698" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581774881178">
+    <state x="600" y="146" width="777" height="812" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1581859700364" />
+    <state x="526" y="210" width="924" height="684" key="DBNavigator.ProjectSettingsDialog" timestamp="1581859898420">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="526" y="210" width="924" height="684" key="DBNavigator.ProjectSettingsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581859898420" />
+    <state x="482" y="187" key="SettingsEditor" timestamp="1581859935266">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1581859935266" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581859703607">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1581301807096" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1581774881178" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1581859703607" />
   </component>
 </project>
