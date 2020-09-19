@@ -1,0 +1,4 @@
+Hey, Hello how are you?
+I am good and how do you do?
+This is the test statement for the append mode
+Second line of the test statement
