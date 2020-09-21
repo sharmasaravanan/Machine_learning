@@ -37,8 +37,8 @@ ML Algorithms:-
 10. Aprior -> associative learning
 11. Random forest -> Ensemble method
 12. AdaBoost -> Ensemble method
-13. Decision tree -> Classification
-14. Naive Baye's -> Classification
+13. Decision tree -> Classification and regression
+14. Naive Baye's -> Classification and regression
 15. PCA -> Dimensionality reduction
 
 Neural Network:-
@@ -50,6 +50,10 @@ Neural Network:-
 4.a gradient descent
 4.b stochostic gradient descent
 5. Vanila neural network
+6. CNN
+7. RNN
+7.a LSTM
+7.b GRU
 
 Face recognition
 
