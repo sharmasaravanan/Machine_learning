@@ -1,2 +1,2 @@
-# Machine_learning
-Basic machine learning algorithm implementation
+# Machine_learning_model
+Basic machine learning algorithm implementation by using in-built Libraries.
