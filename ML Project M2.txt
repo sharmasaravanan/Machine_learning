@@ -1,0 +1,19 @@
+ADIS lifts have a system to simulate different lift control mechanisms in their buildings. Let us assume a building has M lifts and N floors.
+
+You are in charge of measuring the performance of different lift control mechanisms and so will need to design the data model to capture observed data and the measurements you would calculate on that data model. Assume a typical simulation run proceeds over a 24 hour period and you are allowed to observe as much as you like (when/where each lift is, how many passengers, where the passengers are, when/where they arrive/depart, etc – if in doubt assume you can observe it). From your detailed data model you will then need (with very simple calculations) to determine various performance measures, for example:
+
+Average waiting time per passenger
+
+Average journey time per passenger … etc
+
+List the different stakeholders who would be interested in lift performance (a “stakeholder” is any person or group who have an interest in or may be affected by the lift performance).**
+
+List other performance measures that it would be useful or important to measure – make sure these cover all of the stakeholders. (Hint: there are lots of these).**
+
+What would a suitable data representation look like? Please design a series of tables (as would be suitable to put in a database or spreadsheet). Make sure that the data representation (with very simple arithmetic calculations) is adequate to calculate the above measures, and any other measures that you deem important (and that those calculations are fairly easy and unambiguous).**
+
+For “Average waiting time per passenger” and at least 2 other performance measures, describe how they can be easily calculated from your data model. Preferably write the SQL code you would use to calculate the waiting and journey times.**
+
+Describe a simple but sensible algorithm or set of rules which could run a lift control mechanism. In what ways would this simple lift control mechanism work well, and in what ways might it not work well in the real world? What other complications might be important to turn this into a real-world, operational lift controller?**
+
+Please answer these questions either by editing this file, or by adding an additional document to this repository that contains the answers to these questions.

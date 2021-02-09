@@ -1,0 +1,8 @@
+{
+  "name": "Products",
+  "industryId": "101",
+  "intents": [
+    "Do you offer",
+    "Need info"
+  ]
+}

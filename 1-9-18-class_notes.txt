@@ -1,0 +1,527 @@
+Steps:-
+1. Load dataset
+2. Split dataset
+3. Define an algorithm
+4. Training
+5. Validation
+6. Tuning
+7. Testing
+
+Assume:-
+1. Application
+2. Algorithms
+3. Datasets
+
+metrics:-
+accuracy -> Classification
+error  -> regression
+
+error:-
+
+absolute error:- y-y^
+mean absolute error:- summation(y-y^)/n
+mean squared error:- summation(y-y^)**2/n
+least mean squared error sqrt(summation(y-y^)**2/n)
+
+ML Algorithms:-
+
+1. Linear regression -> regression
+2. Logistic regression -> Classification
+3. SVM -> Classification
+4. K-means -> clustering
+5. KNN  -> clustering
+6. Hierarchy clustering -> clustering
+7. LDA -> topic modeling
+8. TF-IDF -> topic modeling
+9. Eclat -> associative learning
+10. Aprior -> associative learning
+11. Random forest -> Ensemble method
+12. AdaBoost -> Ensemble method
+13. Decision tree -> Classification and regression
+14. Naive Baye's -> Classification and regression
+15. PCA -> Dimensionality reduction
+
+Neural Network:-
+
+1. perceptron
+2. sigmoid
+3. multi layer preceptron
+4. Backpropagation
+4.a gradient descent
+4.b stochostic gradient descent
+5. Vanila neural network
+6. CNN
+7. RNN
+7.a LSTM
+7.b GRU
+
+Face recognition
+
+LFW -> labeled wild face
+FRGC -> Face recognition grand challenge
+
+object recogition
+
+coco
+cifar-100/cifar-10
+
+
+NLP processing 
+
+SQuAD dataser
+IMDb movie review dataset
+twitter dataset
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+1. linear regression
+
+linear equation => y=mx+c (eqn of line)
+
+y^ = beta0+beta1*x
+
+e.g:-
+
+		(2,5),(3,7),(4,10),(7,?)   -> predicted value is 16 
+
+			y-y^ =0
+
+		y-(beta0+beta1*x) = 0
+
+			5-b0-b1*2=0   --> 1        error calculation:-  y^ = 2+2*2 = 6 => y-y^ = |5-6| = 1
+			7-b0-b1*3=0   --> 2                             y^ = 2+2*3 = 8 => y-y^ = [7-8| = 1
+			
+			solving 1 & 2
+			-2+b1=0
+			
+			[b1=2]
+		apply b1 in 3
+		 
+			10-b0-b1*4=0
+			10-b0-8 = 0
+			2-b0 =0
+			
+			[b0=2]
+		
+		y^=beta0+beta1*x
+		y^ = 2+2*7
+		y^=16
+
+e.g :- 
+              (2,3,8),(4,2,10),(2,8,12),(3,5,?) -> multilinear regression 
+              y^ = beta0+beta1*x_1+beta2*x_2+......+betan*x_n
+            
+Scenario:-
+
+sale value forecasting based Ad 
+
+---------------------------------------------------------------------------------------------------------------------------
+
+2.Logistic Regression 
+
+logit function => log(p/1-p)
+
+logistic function => inverse (logit function) => 1/1+exp(-z) (sigmoid function)
+
+z-> mx+c (output from linear regression)
+
+- infinity to +infinity => 1/1+exp(-z) => 0-1 
+
+biclass -> 0-0.5/0.5-1
+
+multiclass (5) -> 0-0.2/0.2-0.4/..../0.8-1 (multnomial)
+
+Scenario:-
+
+IMDb movie review sentiment analysis
+
+I bought a product from flipkart for 5000 Rs which is very good to use. -> positive
+
+product  flipkart very good  -> positive
+
+CountVectorizer:
+
+my friend's name is John and his pet's name is Tom. (line number 0)
+
+stop words:-
+-> friend's name  John pet's name Tom
+lemmatization:-
+-> friend name John pet name Tom
+
+
+n-gram if n = 1 -> unigram, if n = 2 -> bigram
+
+unigram   				bigram
+
+friend  (0,1)			friend name
+name (0,2)			name John
+John (0,1)			John pet
+pet (0,1)			pet name
+Tom (0,1)			name Tom
+ 
+apple is a good fruit, apple is in red color,an apple keeps a doctor away  -> min_df = 2
+
+Known words: apple,is,a -> apple -2 ,is - 3 ,a - 4
+unknown words : good,fruit,in,red,color,doctor,keeps,away,an  - 1 
+
+Steps for sentiment analysis:-
+0. Cleaning dataset                                       
+1. Load dataset
+1.a Text into vectors   -> count vectorizers or pre-trained vectors (GLoVe)
+2. Split dataset
+3. Define an algorithm
+4. Training
+5. Validation
+6. Tuning
+7. Testing
+				Cleaning dataset
+				   a. remove NA values (for both text and numericals)
+				   b. fill NA values by using mean/median (for numericals) and mode (For text )
+				   c. remove duplicates (for both text and numericals)
+				   d. remove unwanted inputs (HTML tags,special characters etc...)(for text)
+				   e. remove stopwords (for text)
+				   f. casefolding (for text)
+				   g. resize/crop the image
+				   h. remove noise (for image)
+				   i. rotating the image (if required)
+				   j. converting RGB into single chanel (for image)
+				   				  
+---------------------------------------------------------------------------------------------------------------------------
+3. SVM -> support vector machine 
+
+Bi-classification algorithm -category
+
+one to one --> A/B
+
+ABC - 3 groups
+one to many --> A/BC -> if it BC then B/C
+
+ABCD - 4 groups
+many to many --> AB/CD --> if it AB then A/B else C/D
+
+margin -> a. Soft margin
+	  b. Hard margin
+
+margin is a distance between first data points and the border.
+
+				+ /|\ o
+---------------------------------------------------------------------------------------------------------------------------
+4. K-means
+
+k => no of cluster
+
+means of vector distance
+
+---------------------------------------------------------------------------------------------------------------------------
+5. KNN -> k Nearest Neighbours
+
+clustering/classification
+
+vector distance
+
+---------------------------------------------------------------------------------------------------------------------------
+
+TASK- Results
+
+Dataset:- IMDb sentiment analysis
+
+Algorithms :- Logistic	SVM	KNN
+
+cleaned		88.5%	 87%	 97%
+
+uncleaned 	89.5%	 88%	 --
+
+uncleaned
+
+the product is awesome
+service is good 
+
+cleaned
+
+product awesome
+service good 
+
+---------------------------------------------------------------------------------------------------------------------------
+6. Hierarchy clustering
+
+clustering scenario 
+
+dendrogram,linkage 
+
+vector distance
+
+dendrogram---> a tree diagram, especially one showing taxonomic relationships.
+
+linkage --> simple,centre/average,complete
+
+eg:-
+
+banana,orange,apple,lemon,papaya
+
+---------------------------------------------------------------------------------------------------------------------------
+7. Apriori 
+
+	     Number of transaction of an item
+support = ------------------------------------
+	     Total number of transaction 
+	     
+for an item to be in offer list, that item should have minimum support 
+
+min_sup = 50% = 3
+
+onion,potato  --> 4
+onion,burger  --> 3
+onion,milk    --> 2
+onion,beer    --> 2
+potato,burger --> 4
+potato,milk   --> 3
+potato,beer   --> 2
+burger,milk   --> 2
+burger,beer   --> 2
+milk,beer     --> 2
+
+two product combo
+onion,potato  
+onion,burger
+potato,burger 
+potato,milk 
+
+width search algorithm
+computational time is high 
+
+one hot encoding
+
+time taken = 0.2S
+---------------------------------------------------------------------------------------------------------------------------
+8. ECLAT
+
+Equivalent class transformation 
+
+depth search algorithm
+
+time taken = 0.06S
+
+---------------------------------------------------------------------------------------------------------------------------
+9. Random forest
+
+Ensemble method -> randomly selected algorithms 
+
+collection of same/different algorithms
+
+randomforest classifier
+randomforest regression
+
+---------------------------------------------------------------------------------------------------------------------------
+10. Adaboost -> adaptive boosting
+
+weaker -> weaker -> stronger
+
+input   :- x1    x2   x3
+
+weights :- 0.2  0.5  0.01
+ 
+Ex output:- -1   1   -1
+
+predicted:- -1  -1   -1
+
+terror   :-  0   1    0
+
+error   = sum(w(i)*terror)/sum(w(i))
+
+	= ((0.2*0)+(0.5*1)+(0.01*0))/(0.2+0.01+0.5)
+	
+	= 0.5/0.71 
+	
+error,E = 0.704
+	
+stage   = ln((1-E)/E)
+
+	= ln(0.296/0.704)
+	
+	= -0.866
+ 
+
+W	= w + exp(terror*stage)
+
+variances:-
+
+	1. Gradient boosting (GB)
+	2. XGB
+---------------------------------------------------------------------------------------------------------------------------
+11. Naive baye's
+
+bayesian -> conditional probability
+
+P(A/B) = P(A)P(B/A) / P(B)
+
+test scenario :- SMHT
+
+P(yes/SMHT) = P(yes) P(SMHT/yes) / P(SMHT) = 0.214
+
+P(SMHT) = P(S)*P(M)*P(H)*P(T)
+
+P(no/SMHT) = P(no) P(SMHT/no) / P(SMHT) = 1.246
+
+P(yes) = 0.214 /(0.214+1.246) = 0.14
+
+P(no) = 1.246 /(0.214+1.246) = 0.86
+
+---------------------------------------------------------------------------------------------------------------------------
+Reference :-
+
+1. medium.com
+2. analyticsvidhya.com
+3. towardsdatascience.com
+4. digitalocean
+5. dzone
+6. dataaspirant
+
+---------------------------------------------------------------------------------------------------------------------------
+12. Decision tree
+
+flow chart 
+
+start -> input -> decision --> yes/no -> output
+
+parameter1,parameter2,parameter3 -> sorting based on information content
+
+entropy = -P log2 P
+
+information gain
+
+H(play) = [-9/14 log2(9/14)]+[-5/14 log2 (5/14)]
+	= 0.409+0.530
+	= 0.930
+
+H(outlook):-
+
+H(sunny) = [-2/5 log2(2/5)]+[-3/5 log2 (3/5)] = 0.9709
+H(overcast)=[-4/4 log2 (4/4)]+[0] = 0
+H(rainy) = [-2/5 log2(2/5)]+[-3/5 log2 (3/5)] = 0.9709
+
+H(outlook) = 0.9709 *(5/14)+ 0*(4/14)+0.9709*(5/14)
+	   = 0.6935
+
+information gain (outlook) = 0.930 - 0.6935
+			   = 0.2365
+
+H(Temp):-
+
+H(hot) = [-2/4 log2 (2/4)]+[-2/4 log2 (2/4)] = 1 
+H(mild) = [-4/6 log2 (4/6)]+[-2/6 log2 (2/6)] = 0.918
+H(cool) =[-3/4 log2 (3/4)]+[-1/4 log2 (1/4)] = 0.811
+
+H(temp) = 1 * (4/14) + 0.918 * (6/14) + 0.811 * (4/14) = 0.910
+
+information gain = 0.930 - 0. 910 = 0.02
+
+
+H(windy):-
+
+H(false) =
+H(true) =
+
+
+H(windy) = 0.939
+
+information gain = 0.009
+
+
+H(humidity):-
+
+H(high) =
+
+H(normal) =
+
+H(humidity) =
+
+information gain =
+
+
+two methods :-
+
+CART  -> classification and regression tree -> gini index
+
+ID3 -> iterative dichotomiser 3 -> entropy
+
+
+gini index = 1 - summation(P_t^2)
+
+---------------------------------------------------------------------------------------------------------------------------
+Metrics
+
+error -> regression
+
+accuracy -> classification
+
+recall,precision and f1 score
+
+recall -> 2008 - 2018 -> 7/10 = 70%
+
+precision -> 10/15 => precision = 100%
+
+	     TP
+recall = ------------
+	    TP + FP
+
+		TP
+precision = -----------   
+	      TP + FN
+
+           	Recall + Precision
+f1 score = 2 * --------------------
+		recall * precision
+
+		    TP + TN 
+accuracy = -------------------------
+	       TP + TN + FP + FN
+---------------------------------------------------------------------------------------------------------------------------
+LDA  and TF-IDF
+
+Topic modeling, NLP preprocessing 
+
+previous method :- LSI
+
+LSI => latent sematics index
+
+LDA => Latent dirichlet allocation
+
+TF-IDF => Term ferquency and inverse document frequency
+
+term => word
+document => sentence/ line
+corpus => paragraph
+
+s1: i eat fish and vegetables
+s2: my pet is fish
+s3: kitten eats fish
+
+parent matrix = document vs term
+
+two child matrix
+
+document vs topic and topic vs term
+
+terms :- eat fish,fish,vegetable,pet, kitten
+
+TF-IDF
+
+word weight => tf * (1/df)
+
+tf => number of times a particular word is repeated
+
+df => how frequent it repeates?
+
+word weight = (1+log(1+tf))*log(N/df)
+
+---------------------------------------------------------------------------------------------------------------------------
+PROJECTS:-
+1. ML Project M1.pdf
+2. Question generation
+3. Extracting likes and dislikes from a text.
+4. emotion identificaton from texts.
+
+
+ 
+
+

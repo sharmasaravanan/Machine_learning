@@ -1,0 +1,31 @@
+1. Title of the database: "N-BaIoT: Data for network based detection of IoT botnet attacks"
+
+2. Usage:
+        Originally we aimed at distinguishing between benign and Malicious traffic data by means of anomaly detection techniques. The detection of anomalies (i.e., the cyberattacks launched from each of the above IoT devices) concluded with 100% TPR.  
+      
+3. Relevant Information:
+    Prior experimental studies on the detection of IoT botnets or IoT traffic anomalies typically relied on emulated or simulated data. In contrary , this dataset enables empirical evaluation with *real* traffic data, gathered from nine commercial IoT devices infected by authentic botnets from two families in an isolated network. It facilitates the examination of Mirai and BASHLITE, two of the most common IoT-based botnets, which have already demonstrated their harmful capabilities.
+
+4. Number of Instances: Varies for every device and attack. 
+
+5. Number of Attributes: 115 independent features in each file, plus a class label to be derived from the respective filename (e.g., "benign" or "TCP attack").
+
+6. Attribute Information:
+        --The following describes each of the features headers:
+        --Stream aggregation:
+                H: ("Source IP" in N-BaIoT paper) Stats summarizing the recent traffic from this packet's host (IP)
+                MI: ("Source MAC-IP" in N-BaIoT paper) Stats summarizing the recent traffic from this packet's host (IP + MAC)
+                HH: ("Channel" in N-BaIoT paper) Stats summarizing the recent traffic going from this packet's host (IP) to the packet's destination host.
+                HH_jit: ("Channel jitter" in N-BaIoT paper) Stats summarizing the jitter of the traffic going from this packet's host (IP) to the packet's destination host.
+                HpHp: ("Socket" in N-BaIoT paper) Stats summarizing the recent traffic going from this packet's host+port (IP) to the packet's destination host+port. Example 192.168.4.2:1242 -> 192.168.4.12:80
+        -- Time-frame (The decay factor Lambda used in the damped window): 
+                -- How much recent history of the stream is capture in these statistics
+                -- L5, L3, L1, L0.1 and L0.01
+        -- The statistics extracted from the packet stream:
+            weight: The weight of the stream (can be viewed as the number of items observed in recent history)
+            mean: ...
+            std: ...
+            radius: The root squared sum of the two streams' variances
+            magnitude: The root squared sum of the two streams' means 
+            cov: An approximated covariance between two streams
+            pcc: An approximated correlation coefficient between two streams

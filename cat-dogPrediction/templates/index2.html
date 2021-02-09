@@ -1,0 +1,125 @@
+<html>
+<title>Animal Classification</title>
+<body>
+<style>
+         @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+         @import url(https://fonts.googleapis.com/css?family=Comfortaa);
+         body {
+         font-family: 'Comfortaa', cursive;
+         background: #353535;
+         color: #FFF;
+         }
+         .jumbotron h1 {
+         color: #353535;
+         }
+         footer {
+         margin-bottom: 0 !important;
+         margin-top: 80px;
+         }
+         footer p {
+         margin: 0;
+         padding: 0;
+         }
+         span.icon {
+         margin: 0 5px;
+         color: #D64541;
+         }
+         h2 {
+         color: #BDC3C7;
+         text-transform: uppercase;
+         letter-spacing: 1px;
+         }
+         .mrng-60-top {
+         margin-top: 60px;
+         }
+         a.animated-button.victoria-one {
+         border: 2px solid #D24D57;
+         }
+         a.animated-button.victoria-one:after {
+         background: #D24D57;
+         -moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+         -ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+         -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+         transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+         }
+         }
+         .button {
+         background-color: #4CAF50; /* Green */
+         border: none;
+         color: white;
+         padding: 16px 152px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+         margin: 4px 2px;
+         -webkit-transition-duration: 0.4s; /* Safari */
+         transition-duration: 0.4s;
+         cursor: pointer;
+         }
+         .button3 {
+         background-color: #353535; 
+         color: white; 
+         border: 2px solid #D24D57;
+         }
+         .button3:hover {
+         background-color: #D24D57;
+         color: white;
+         }
+         img{
+         max-width:250px;
+         }
+
+</style>
+<div class="jumbotron text-center" style="padding : 156px 0">
+    <div class="container">
+        <h1>Animal Classification System</h1>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h2>Here We go !</h2>
+        </div>
+    </div>
+    <form action="" enctype=multipart/form-data method="POST" role="form">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6"><input class="btn btn-sm animated-button victoria-one" name="imgup"
+                                                           onchange="readURL(this);"
+                                                           style="padding : 55px 93px 55px 7px;color:white;font-size:25px"
+                                                           type="file"></div>
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <button class="button button3" name="submit"
+                        style="padding: 18px 200px;margin-top: 30px;font-size: 25px;" type="submit" vaue="sent">Detect
+                </button>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-6">
+            <img alt="your image" id="blah" src="./output.jpeg" style="float : left"/>
+        </div>
+        <div style="font-size:25px">
+            Predicted Name : {{name}}<br><br>
+            Predicted Score : {{score}}
+        </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+         function readURL(input) {
+                  if (input.files && input.files[0]) {
+                      var reader = new FileReader();
+         
+                      reader.onload = function (e) {
+                          $('#blah')
+                              .attr('src', e.target.result);
+                      };
+         
+                      reader.readAsDataURL(input.files[0]);
+                  }
+              }
+
+    </script>
+</div>
+</body>
+</html>
+</form>
+

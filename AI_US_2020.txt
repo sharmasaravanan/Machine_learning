@@ -1,0 +1,5 @@
+hi hello how are you?
+For this assignment you will be using R or Python to analyze a data set along with performing some preprocessing.
+Enclosed in this Zip file is the Texas COVID-19 Case Count Data by County
+This is the same data set from assignment 1. Note that the number of cases accumulates each day for each county.
+this is the test statememtthis is the test statememtheys is the test statememtthis is multi file testing
