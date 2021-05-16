@@ -1,8 +1,12 @@
-Cheatsheet :- http://bit.ly/AIcheatsheet
-Books :- http://bit.ly/AI_material
-Resumes :- http://bit.ly/AIresumes
 Demo video :- http://bit.ly/AI_demos
 Introduction :- http://bit.ly/34Jp1oq
 Basic :- http://bit.ly/2Sc1yd9
 Videos :- http://bit.ly/AI_videos
+Cheatsheet :- http://bit.ly/AIcheatsheet
+Books :- http://bit.ly/AI_material
 GitHub :- http://bit.ly/AI_repos
+String methods:- http://bit.ly/stringMethods
+Exercise:- https://www.w3resource.com/python-exercises/ , https://www.practicepython.org/
+Exception methods:- http://bit.ly/exceptionNames
+python standard:- http://bit.ly/pythonStyle
+DIP Book:- http://bit.ly/bookDIP

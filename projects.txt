@@ -1,7 +1,7 @@
 Virtual receptionist 
 NLP Question generation
 NLP inference generation
-Recomendation system using emotions (NLP/Image)
+Recommendation system using emotions (NLP/Image)
 object description 
 simple chatbot for reminder
 
