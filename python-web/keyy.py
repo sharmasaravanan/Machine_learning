@@ -1,18 +1,21 @@
+#!/usr/local/bin/python3.6
+
 from flask import Flask, request, jsonify
 
-app=Flask(__name__)
+app = Flask(__name__)
 
-@app.route('/python',methods=['POST','GET'])
+@app.route('/search', methods=['POST', 'GET'])
 def home():
-    if request.method=='GET':
+    if request.method == 'GET':
         data = request.args.get('q')  # request.args['q']
-        # data = request.values.get('fruit')
         print(data)
         res = {}
         res["Name"] = data
-        res["Class"] = "Python"
+        res["Class"] = "MSME ML Deployment"
         return jsonify(res)
 
              
-if __name__=='__main__':
-    app.run()
+if __name__ == '__main__':
+    app.run(port=8000)
+    
+
