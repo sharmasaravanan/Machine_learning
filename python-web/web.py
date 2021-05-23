@@ -1,7 +1,7 @@
-import MySQLdb
+import pymysql
 from flask import Flask, render_template, url_for, redirect, request
 
-db = MySQLdb.connect(host="localhost", user="admin", passwd="test@123", db="testDB")
+db = pymysql.connect(host="localhost", user="root", passwd="admin@123", db="testDB")
 
 cur = db.cursor()
 
