@@ -17,15 +17,17 @@ def hello():
         kwargs = {'name': cur.fetchone()[0], }
         return render_template("testing.html", **kwargs)
 
-@app.route('/testing',methods=['GET'])
+@app.route('/testing', methods=['GET'])
 def test():
-	if request.method=='GET':
-		return render_template("hello.html")
-		
+    if request.method == 'GET':
+        return render_template("hello.html")
+
+
 @app.route('/play')
 def playing():
     # return redirect(url_for('test'))
     return redirect('testing')
-	
-if __name__=='__main__':
+
+
+if __name__ == '__main__':
     app.run(host="0.0.0.0", port=8005)
