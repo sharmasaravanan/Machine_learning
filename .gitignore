@@ -1,0 +1,10 @@
+/2021DL.model
+/.ipynb_checkpoints/
+*.xml
+*/.idea
+nohup.out
+*.iml
+/deployment/.ipynb_checkpoints/
+/deployment/dockerFlaskService/.idea/
+.idea/
+gitUpload.sh

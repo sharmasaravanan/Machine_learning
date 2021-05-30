@@ -1,0 +1,9 @@
+docker-compose build
+
+docker-compose up -d
+
+
+
+docker build -t "ML-predict" .
+
+docker run -p 5005:5006 "ml-predict".

@@ -1,0 +1,5 @@
+keras
+tensorflow
+pillow
+flask
+h5py
