@@ -1,0 +1,16 @@
+Python -> what?, why?, how?
+Maths -> what? why? where?
+ML -> algorithms, implementation 
+ DL -> neural networks
+ 
+ 16 days -> 3-4 days python, 1-2 days Maths, 10-12 days ML
+ 
+ 
+ 
+python 3.6/3.7 -> python.org
+pip
+jupyter-notebook --> https://jupyter.org/install
+
+
+
+google colab 
