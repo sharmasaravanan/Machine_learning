@@ -1,3 +1,6 @@
+import pandas as pd
+from pandas import DataFrame
+
 df1 = DataFrame({'key': ['b', 'b', 'a', 'c', 'a', 'a', 'b'],'data1': range(7)})
 df2 = DataFrame({'key': ['a', 'b', 'd'],'data2': range(3)}
 pd.merge(df1, df2)
