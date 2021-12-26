@@ -1,1 +1,1 @@
-{"name": "Products", "industryId": "1234", "intents": ["Do you offer", "Need info"]}
+{"name": "Products", "industryId": "1234", "intents": "Do you offer"}
