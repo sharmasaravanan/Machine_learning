@@ -1,0 +1,5 @@
+Flask==2.0.2
+streamlit==1.10.0
+nltk==3.3
+beautifulsoup4==4.11.1
+sklearn
