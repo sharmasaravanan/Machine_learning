@@ -32,7 +32,7 @@ def hello():
             sentiment = "Negative"
         else:
             sentiment = "Positive"
-        kwargs = {'name': "{} with the score {:.2f}".format(sentiment, score)}
+        kwargs = {'name': "Sentiment is {} with the score {:.2f}".format(sentiment, score)}
         return render_template("testing.html", **kwargs)
 
 
