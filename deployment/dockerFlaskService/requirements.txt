@@ -3,3 +3,4 @@ tensorflow
 pillow
 flask
 h5py
+opencv-python
