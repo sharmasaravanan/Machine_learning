@@ -50,7 +50,6 @@ forecast_model <- forecast::forecast(ts_data, h = forecast_horizon)
 plot(forecast_model)
 
 # correlation
-# Calculate daily returns
 data(iris)
 
 # remove Species column
